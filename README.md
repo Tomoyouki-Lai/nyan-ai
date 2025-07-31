@@ -1,138 +1,93 @@
-# Nyan AI – Your Catgirl Chrome Assistant for Conversational Task Automation 🐾
 [繁中](README.zh-Hant.md) | [English](README.md)
 
-Nyan AI is a Chrome Extension that brings a smart, interactive, and adorable catgirl-style AI assistant to your browser. More than just a desktop pet, Nyan AI combines Live2D animations, natural conversation, and goal-oriented task automation to help you navigate the web, complete daily tasks, and enjoy a more personalized digital experience — all based on your unique profile and preferences.
+# 🐾 Nyan AI - The Next-Gen Interactive Web Agent Sharing Platform
+
+> Web automation is no longer just about you — it's about everyone.  
+> With Nyan AI, you're not just automating websites — you're sharing and co-creating experiences.
+
+---
 
 <img width="1218" height="633" alt="Image" src="https://github.com/user-attachments/assets/d8340957-9a86-482a-8656-53fea331fd8c" />
 
-**Nyan AI is more than just a desktop pet. She is a smart browser assistant powered by Live2D and large language models (LLMs). She can express vivid emotions, understand your voice commands, chat naturally, and even assist you with browsing tasks.**
+## 🌟 What is Nyan AI?
 
-[![GitHub issues](https://img.shields.io/github/issues/nyanlien/nyan-ai)](https://github.com/nyanlien/nyan-ai/issues)
-[![GitHub forks](https://img.shields.io/github/forks/nyanlien/nyan-ai)](https://github.com/nyanlien/nyan-ai/network)
-[![GitHub stars](https://img.shields.io/github/stars/nyanlien/nyan-ai)](https://github.com/nyanlien/nyan-ai/stargazers)
-[![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+**Nyan AI** is a new kind of web automation platform that combines **anime-style assistant characters**, a **shareable script system (Nyan Cards)**, and a **community-first approach**. No coding required — users can view, run, and share web agent tasks with ease.
 
-## ✨ Key Features
+Unlike traditional Web Agents, Nyan AI is not just about automation — it's about communication, growth, and community.
 
-* **Dynamic Live2D Interaction**:
+---
 
-  * Real-time emotion-driven expressions and animations.
-  * Supports multiple character models, each with unique personality traits (`roles.json`).
+## 🆚 Nyan AI vs Traditional Web Agents
 
-* **Voice Control & Dialogue**:
+| Feature              | Traditional Web Agent     | 🐾 Nyan AI                                |
+|----------------------|---------------------------|--------------------------------------------|
+| **Usage Model**       | B2C Tool                  | B2C2C Community Sharing Platform           |
+| **Execution Speed**   | Slow, re-analyzes each time | Fast, reuse community-created workflows  |
+| **Success Rate**      | Medium                    | High (community-validated workflows)       |
+| **Character Interaction** | None                  | Yes, built-in anime-style assistant        |
+| **Sharing Capability**| Almost none              | Yes, visual scripts and one-click sharing  |
+| **Customization**     | None                     | Yes, customize character style and tone    |
+| **Marketing & Virality** | None                 | Yes, designed for sharing and engagement   |
+| **Compute Cost**      | High                     | Low, with caching and task reuse           |
+| **Prompt Skills Needed** | Required             | Not needed for users; contributors only    |
+| **Language Support**  | English only             | Multilingual UI with localized character voices |
 
-  * Integrated browser-based speech recognition (STT) and synthesis (TTS).
-  * Supports high-quality external TTS services like Unreal Speech.
-  * Custom lip-sync engine for realistic speaking animations.
+---
 
-* **Smart Browser Assistant**:
+## 🎴 What is a Nyan Card?
 
-  * Natural language understanding (NLU) + LLM for intent conversion.
-  * **Web actions**: navigate pages, click elements, manage tabs, scroll.
-  * **Search & summarization**: find and summarize web content.
+Nyan Cards are visual, shareable scripts that enable users to automate web tasks with ease. Features include:
 
-* **Multimodal AI Capabilities**:
+- 🧩 Drag-and-drop UI for building web task flows  
+- 🗂 Embedded character voice guidance and tips  
+- 📤 Shareable with friends or the community in one click  
+- 🧠 Backed by AI modules for smart, real-time automation  
 
-  * **Vision (OCR)**: reads and understands text from images.
-  * **DOM Structure Understanding**: faster and more accurate than OCR for structured automation.
+---
 
-* **Core Feature: Nyan Card System**:
+## 💡 Use Cases
 
-  * Modular expansion system using JSON "Nyan Cards" to define appearance, personality, and complex behaviors.
+- Quickly interact with shopping, restaurant, or social platforms  
+- Turn a multi-step process into a Nyan Card anyone can reuse  
+- Use characters (like catgirls) to enhance interaction and branding  
+- Build a growing library of community-created automation cards  
 
-* **Personalization & Memory**:
+---
 
-  * Lightweight memory system stores your nickname and preferences.
-  * Remembers past websites you've analyzed for contextual conversations.
+## 🚀 Get Started
 
-* **Highly Customizable**:
+> Join us and make web automation cute, intuitive, and shareable!
 
-  * Detailed settings panel to manage LLM keys, TTS services, Nyan Cards, etc.
+- 👉 Install the extension: [Chrome Web Store](https://chrome.google.com/webstore/nyan-ai)  
+- 👉 Join our Discord: [Nyan AI Community](https://discord.gg/nyan-ai)  
+- 👉 Visit our site: [https://nyan-ai.app](https://nyan-ai.app)  
 
-## 🎬 Demo
+---
 
-*Catgirl interacting with user GIF animation*
+## 🐾 Developer Guide
 
-![Nyan AI Demo](https://user-images.githubusercontent.com/your-username/your-repo/assets/demo.gif)
+- Licensed under [Apache-2.0 License](./LICENSE)  
+- Create your own characters, themes, or workflow cards  
+- Contribute new Nyan Cards or character packs!
 
-*Settings Panel Screenshot*
+---
 
-![Nyan AI Settings](https://user-images.githubusercontent.com/your-username/your-repo/assets/settings_popup.png)
+## 🙌 Contribute With Us
 
-## 🚀 Installation & Usage
+We're building a new generation of interactive automation. Are you:
 
-### 👤 For Regular Users
+- A UI/UX designer?  
+- A JavaScript developer?  
+- An AI / Prompt engineer?  
+- A creative catgirl enthusiast? 🐱  
 
-1. Go to the [Chrome Web Store]() to install. <!-- Add your link here -->
-2. Click the Nyan AI icon in the top-right corner of the browser.
-3. Sign in with your Google account.
-4. Configure your LLM API key (OpenRouter or others recommended).
-5. Click the "Show/Hide Nyan AI" toggle to summon the assistant.
-6. Start interacting with your catgirl assistant!
+Feel free to open issues, submit PRs, or join us on Discord!
 
-### 🧑‍💻 For Developers
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/nyanlien/nyan-ai.git
-   ```
-2. Open Chrome and go to `chrome://extensions`
-3. Enable **Developer Mode** (top right)
-4. Click **Load unpacked** and select the project folder.
-5. Follow regular user steps from step 2 onward.
-
-### 🎤 How to Interact
-
-* **Voice input**: Click the mic icon next to Nyan.
-* **Text input**: Use the chat input field under the dialogue bubble.
-* **Install Nyan Cards**: Drag from the [Nyan Card Market & Generator](https://your-website-url.com) <!-- Replace with your site --> directly onto Nyan.
-
-## 🛠️ Architecture & Tech Stack
-
-```
-[ User ] <--> [ Content Script ] <--> [ Background Script ] <--> [ APIs (LLM, TTS, Firebase) ]
-   (DOM interaction)         (state/memory)                  (external services)
-```
-
-* **Language**: JavaScript
-* **Rendering**: PIXI.js + pixi-live2d-display
-* **Backend-as-a-Service**: Firebase
-* **OCR**: Tesseract.js
-
-## 🧩 Core System: Nyan Card
-
-JSON-based modular definitions that customize:
-
-* `modelPrompt`: change appearance/model
-* `personalityPrompt`: change tone/personality
-* `missionPrompt`: define task-oriented workflows
-
-Visit: [https://your-website-url.com](https://your-website-url.com) <!-- Replace with your website -->
-
-## ✅ Pending Features
-
-* ❌ Long-term memory  
-* ❌ Player profiling  
-* ❌ Emotion analysis  
-* ❌ Multimodal AI  
-* ❌ Many more Nyan Cards
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. `git checkout -b feature/AmazingFeature`
-3. `git commit -m 'Add some AmazingFeature'`
-4. `git push origin feature/AmazingFeature`
-5. Submit a pull request
+---
 
 ## 📜 License
 
-Licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+This project is licensed under **Apache-2.0**.  
+Feel free to use, modify, and share — just keep attribution.
 
-## ❤️ Acknowledgments
-
-* Live2D model creators (listed in `roles.json`)
-* PIXI.js / pixi-live2d-display
-* Tesseract.js
-* The open-source community for their continued support
+---
