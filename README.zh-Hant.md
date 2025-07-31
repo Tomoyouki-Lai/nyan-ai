@@ -4,6 +4,8 @@
 > Web automation is no longer just about you — it's about everyone.  
 > 喵AI 讓你不只是操作網站，更能把成果分享出去，創造互動與價值！
 
+---
+
 <img width="1218" height="633" alt="Image" src="https://github.com/user-attachments/assets/d8340957-9a86-482a-8656-53fea331fd8c" />
 
 ## 🌟 什麼是喵 AI？
