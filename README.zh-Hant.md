@@ -1,4 +1,4 @@
-[繁中](README.zh-Hant.md) | [English](README.md)
+[English](README.md) | [繁中](README.zh-Hant.md) 
 
 # 🐾 喵 AI - 新世代網頁 AI 代理人互動分享平台
 
