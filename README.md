@@ -1,4 +1,4 @@
-[繁中](README.zh-Hant.md) | [English](README.md)
+[English](README.md) | [繁中](README.zh-Hant.md) 
 
 # 🐾 Nyan AI - The Next-Gen Interactive Web Agent Sharing Platform
 
