@@ -1,4 +1,5 @@
 # 🐾 喵 AI - 新世代網頁 AI 代理人互動分享平台
+[繁中](README.zh-Hant.md) | [English](README.md)
 
 > Web automation is no longer just about you — it's about everyone.  
 > 喵AI 讓你不只是操作網站，更能把成果分享出去，創造互動與價值！
