@@ -1,154 +1,74 @@
-# Nyan AI – 您的貓娘風格 Chrome 助理，支援對話式任務自動化 🐾
+🐾 Nyan AI 喵AI - 新世代網頁互動分享平台
+Web automation is no longer just about you — it's about everyone.
+喵AI 讓你不只是操作網站，更能把成果分享出去，創造互動與價值！
 
-[繁中](README.zh-Hant.md) | [English](README.md)
+🌟 什麼是喵AI？
+喵AI 是一個全新的網頁自動化平台，結合 貓娘角色、腳本分享機制（喵卡） 和社群導向設計，讓使用者不需具備技術背景也能「看懂、操作、分享」各種網站任務。
 
-Nyan AI 是一款 **Chrome 擴充功能**，讓一位聰明可愛的 **貓娘 AI 助理** 進駐您的瀏覽器。不只是桌面寵物，Nyan AI 結合 **Live2D 動畫**、**自然語言對話** 與 **目標導向任務自動化**，幫助您完成網頁操作、搜尋資訊，甚至依照您的個人偏好進行智慧化推薦與回應。
+相比傳統的 Web Agent 工具，喵AI 不只是自動化，更是推廣、溝通與共創的平台。
 
-<img width="1216" height="634" alt="Image" src="https://github.com/user-attachments/assets/327eb2fd-a76c-489c-8f3d-9dfe82a57383" />
+🔍 與一般 Web Agent 的比較
+項目	一般 Web Agent	🐾 喵AI
+模式	B2C	B2C2C（使用者能產出並分享任務）
+沙盒機制	有（模擬環境）	無，直接操作真實網站
+爬蟲機制	每次重新分析與抓取	一次建立，可反覆執行與分享
+性質	單純工具	社群分享、病毒式推廣
+行銷應用	無	可（可嵌入品牌角色、導引流量）
+角色設計	無	有（內建貓娘角色，可客製）
+客製化能力	無	高（角色語氣、外觀、互動皆可調整）
+執行效率	慢，每次需重頭分析	快，直接執行現成喵卡
+任務成功率	中	高（復用社群驗證過的流程）
+算力成本	高	低（任務流程可重用、快取）
+Prompt 技能	需中等至低技巧	使用者不需技能，貢獻者需具備高技巧
+腳本系統	無	有（喵卡：圖像化、可分享的任務腳本）
 
-**Nyan AI 不只是桌面寵物，她是一位由 Live2D 與大型語言模型（LLMs）驅動的智慧瀏覽器助理。她能展現生動的情緒、理解您的語音指令、自然地與您對話，甚至協助您完成各種瀏覽任務。**
+🎴 喵卡（Nyan Card）是什麼？
+喵卡是一種可視化腳本格式，結合了以下特性：
 
-[![GitHub issues](https://img.shields.io/github/issues/nyanlien/nyan-ai)](https://github.com/nyanlien/nyan-ai/issues)
-[![GitHub forks](https://img.shields.io/github/forks/nyanlien/nyan-ai)](https://github.com/nyanlien/nyan-ai/network)
-[![GitHub stars](https://img.shields.io/github/stars/nyanlien/nyan-ai)](https://github.com/nyanlien/nyan-ai/stargazers)
-[![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+🧩 支援拖拉式互動元件與網頁任務流程
 
-## ✨ 主要功能
+🗂 可嵌入角色語音與導引提示
 
-* **Live2D 虛擬貓娘角色**：
+📤 一鍵分享給朋友或社群使用
 
-  * 由大型語言模型即時驅動的情緒表情與動畫互動
-  * 支援多角色自訂，每位貓娘都有獨立個性設定
+🧠 背後由 AI 模組解析並自動化執行
 
-* **語音控制與自然語言對話**：
+💡 適用場景
+快速搜尋並操作購物、餐廳、社群平台等網站
 
-  * 整合語音辨識（STT）與語音合成（TTS）服務
-  * 與 AI 進行自然語言互動、對話理解準確
-  * 自訂對嘴引擎讓動畫口型更生動
+將一段操作流程製作成卡片，分享給他人一鍵完成任務
 
-* **任務導向的智慧助理**：
+利用角色（如貓娘）強化互動與品牌體驗
 
-  * 可理解如「找一間附近適合吃午餐的餐廳」這類自然語言任務
-  * 支援多步驟規劃、自動化操作與即時決策
+建立一個社群任務庫，人人皆可共用與改造
 
-* **瀏覽器網頁互動能力**：
+🚀 開始使用
+立即加入我們，一起讓網頁操作變得可愛、直覺、可分享！
 
-  * 自動點擊、捲動、切換頁籤、填寫表單等瀏覽器操作
-  * 擷取與摘要網頁內容並進行語意理解
+👉 安裝擴充功能：Chrome Web Store 🔗
+👉 加入 Discord 社群：喵AI 討論區
+👉 官方網站：https://nyan-ai.app
 
-* **多模態 AI 能力**：
+🐾 開發者指南
+採用 Apache-2.0 License
 
-  * **OCR 圖像辨識** – 讀取圖片中的文字
-  * **DOM 結構分析** – 以更快速準確的方式處理網頁資料
+可開發自定義角色、主題與任務流程
 
-* **模組化擴充：喵卡系統**：
+歡迎貢獻喵卡與角色包！
 
-  * 透過 JSON 格式「喵卡」新增外觀、個性、任務行為
-  * 自訂提示詞：
+🙌 一起貢獻
+我們正在建立一個全新的互動自動化生態系。如果你是：
 
-    * `modelPrompt` 外觀
-    * `personalityPrompt` 個性
-    * `missionPrompt` 任務
+UI/UX 設計師
 
-* **個人化推薦與側寫理解**：
+JavaScript 開發者
 
-  * 根據使用者偏好（如距離容忍度、預算、天氣習慣）進行智慧推薦
-  * 結合即時天氣、時間與熱門度自動做出判斷
+AI/Prompt 工程師
 
-* **記憶與上下文理解**：
+有創意的貓娘控 🐱
 
-  * 記住使用者名稱、偏好
-  * 多輪對話可回顧過往網頁內容與指令紀錄
+歡迎 PR、開 issue 或加入我們的 Discord！
 
-* **高自訂性設定**：
-
-  * 支援自由設定 LLM API 金鑰、TTS 選項、記憶開關與喵卡安裝
-
-## 🎬 展示範例
-
-*貓娘與使用者互動動畫*
-
-![Nyan AI Demo](https://user-images.githubusercontent.com/your-username/your-repo/assets/demo.gif)
-
-*設定介面畫面擷圖*
-
-![Nyan AI Settings](https://user-images.githubusercontent.com/your-username/your-repo/assets/settings_popup.png)
-
-## 🚀 安裝與使用說明
-
-### 👤 一般使用者
-
-1. 前往 [Chrome 線上應用程式商店]() 下載安裝
-2. 點擊瀏覽器右上角 Nyan AI 圖示
-3. 使用 Google 帳號登入
-4. 設定您的 LLM API 金鑰（建議使用 OpenRouter）
-5. 開啟「顯示/隱藏貓咪」開關，即可在任一頁面啟動互動
-6. 可透過語音或輸入文字開始對話與操作
-
-### 🧑‍💻 開發者
-
-1. Clone 本專案：
-
-```bash
-git clone https://github.com/nyanlien/nyan-ai.git
-```
-
-2. 開啟 `chrome://extensions`
-3. 啟用「開發人員模式」
-4. 點擊「載入未封裝的擴充功能」，選擇專案資料夾
-5. 依照一般使用者步驟完成設定
-
-### 🎤 如何互動
-
-* 點選貓咪旁的麥克風圖示說話
-* 在聊天框中輸入文字
-* 從 [https://your-website-url.com](https://your-website-url.com) 拖曳「喵卡」至貓咪身上安裝
-
-## 🛠️ 技術架構與使用技術
-
-```
-[ 使用者 ] <--> [ Content Script ] <--> [ Background Script ] <--> [ 外部 API（LLM, TTS, Firebase） ]
-   (網頁互動)         (狀態管理)                   (語言模型/語音/驗證等)
-```
-
-* **語言**：JavaScript (ES6+)
-* **Live2D 引擎**：PIXI.js + pixi-live2d-display
-* **雲端後端服務**：Firebase
-* **OCR 引擎**：Tesseract.js
-
-## 🧩 喵卡系統簡介
-
-「喵卡」是定義 Nyan AI 行為的 JSON 檔案，可以客製：
-
-* 外觀模型（`modelPrompt`）
-* 個性語氣（`personalityPrompt`）
-* 任務邏輯（`missionPrompt`）
-
-您可前往 [https://your-website-url.com](https://your-website-url.com) 瀏覽、創建並分享喵卡！
-
-## ✅ 待完成事項
-
-* ❌ 長期記憶
-* ❌ 玩家個人側寫
-* ❌ 情感分析
-* ❌ 多模態 AI
-* ❌ 更多更多的喵卡
-
-## 🤝 貢獻方式
-
-1. Fork 本專案
-2. 建立功能分支：`git checkout -b feature/AmazingFeature`
-3. 提交變更：`git commit -m 'Add some AmazingFeature'`
-4. Push 分支：`git push origin feature/AmazingFeature`
-5. 提交 Pull Request！
-
-## 📜 授權
-
-本專案採用 [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0) 授權。
-
-## ❤️ 特別感謝
-
-* 所有 Live2D 模型創作者（皆已於 `roles.json` 中標註）
-* PIXI.js 與 pixi-live2d-display 開發者
-* Tesseract.js 團隊
-* 開源社群的靈感與支持！
+📜 授權 License
+本專案採用 Apache-2.0 授權。
+自由使用、修改、分享，但請保留原始作者資訊。
