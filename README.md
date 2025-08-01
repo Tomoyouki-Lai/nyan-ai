@@ -68,7 +68,7 @@ Nyan Cards are visual, shareable scripts that enable users to automate web tasks
 
 - **Q: How do I start using Nyan AI?**  
   A:  
-  1. Install the [Nyan AI Chrome Extension](https://chrome.google.com/webstore/nyan-ai)  
+  1. Install the [Nyan AI Chrome Extension](https://chrome.google.com/webstore/xxx)  
   2. Log in with your Google account  
   3. Click the Nyan AI icon to open the menu  
   4. Enter your free LLM API key (e.g. OpenAI)  
