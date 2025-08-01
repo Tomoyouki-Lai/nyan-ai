@@ -91,16 +91,20 @@ We're building a smarter, cuter, and more autonomous Nyan AI. Here's what's comi
 
 ---
 
-## 🙌 Contribute With Us
+## 🧠 AI Vibe Coding — Build the Future with AI
 
-We're building a new generation of interactive automation. Are you:
+We're not just coding — we're co-creating with AI.
 
-- A UI/UX designer?  
-- A JavaScript developer?  
-- An AI / Prompt engineer?  
-- A creative catgirl enthusiast? 🐱  
+Whether you're:
+- 🤖 An AI prompt engineer or ChatGPT power user
+- ✨ A creative UI/UX designer
+- 🧑‍💻 A JavaScript or frontend developer
+- 😺 A catgirl enjoyer with a builder mindset
 
-Feel free to open issues, submit PRs, or join us on Discord!
+If you're excited about **AI x web interaction**, you don't even need to code —  
+Just hop into our Discord to collaborate, suggest ideas, or build Nyan Cards together!
+
+👉 [Join our Discord](https://discord.gg/S63V44n3)
 
 ---
 
