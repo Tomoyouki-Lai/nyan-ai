@@ -151,7 +151,7 @@
 - 🧑‍💻 JavaScript / 前端互動開發者
 - 😺 喜歡貓娘角色、有創作魂的二次元控
 
-只要你對『AI x 網頁互動』或 AI Vibe Coding 有興趣，不會寫程式也沒關係！
+只要你對 **AI x 網頁互動** 或 **AI Vibe Coding** 有興趣，不會寫程式也沒關係！
 加入我們的 Discord，一起討論、共創、提功能點子、分享喵卡！
 
 👉 [加入 Discord](https://discord.gg/S63V44n3)
