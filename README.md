@@ -11,7 +11,7 @@
 
 ## 🌟 What is Nyan AI?
 
-**Nyan AI** is a new kind of web automation platform that combines **anime-style assistant characters**, a **shareable script system (Nyan Cards)**, and a **community-first approach**. No coding required — users can view, run, and share web agent tasks with ease.
+**Nyan AI** is a new kind of AI web automation platform that combines **anime-style assistant characters**, a **shareable script system (Nyan Cards)**, and a **community-first approach**. No coding required — users can view, run, and share web agent tasks with ease.
 
 Unlike traditional Web Agents, Nyan AI is not just about automation — it's about communication, growth, and community.
 
@@ -36,7 +36,7 @@ Unlike traditional Web Agents, Nyan AI is not just about automation — it's abo
 
 ## 🎴 What is a Nyan Card?
 
-Nyan Cards are visual, shareable scripts that enable users to automate web tasks with ease. Features include:
+Nyan Cards are visual, shareable scripts that enable users to AI automate web tasks with ease. Features include:
 
 - 🧩 Drag-and-drop UI for building web task flows  
 - 🗂 Embedded character voice guidance and tips  
@@ -56,7 +56,7 @@ Nyan Cards are visual, shareable scripts that enable users to automate web tasks
 
 ## 🚀 Get Started
 
-> Join us and make web automation cute, intuitive, and shareable!
+> Join us and make AI web automation cute, intuitive, and shareable! 
 
 - 👉 Install the extension: [Chrome Web Store](https://chrome.google.com/webstore/nyan-ai)  
 - 👉 Join our Discord: [Nyan AI Community](https://discord.gg/nyan-ai)  
