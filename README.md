@@ -127,7 +127,7 @@ We're building a smarter, cuter, and more autonomous Nyan AI. Here's what's comi
 - **Intelligent Search & Installation**: Nyan AI can automatically search, install, and activate Nyan Cards based on task needs (with user permission).
 - **Scheduled Execution**: Run specific Nyan Cards daily, weekly, or at set times via task scheduling.
 - **Multi-Card Chaining**: Link multiple cards into a seamless task flow to handle complex workflows.
-- **Model Content Protocol (MCP)**: Allows Nyan Cards to interface with multiple AI backends and web services, supporting modular and adaptive task execution.
+- **Model Content Protocol (MCP)**: Allows Nyan Cards to connect with various online services and tools, enabling flexible cross-module execution.
 
 ### 🔐 Personalization & Web3 Expansion
 - **Encrypted Nyan Wallet**: Support for Nyan Card signing, character asset licensing, and optional future economic system integration.
