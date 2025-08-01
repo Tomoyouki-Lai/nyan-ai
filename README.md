@@ -64,6 +64,15 @@ Nyan Cards are visual, shareable scripts that enable users to automate web tasks
 
 ---
 
+## ⚠️ Notes on Chrome Extension and AI Features
+
+- If the extension stays idle on a webpage for too long, please reload the page to ensure smooth operation.  
+- When you first enter a webpage, if there is no user interaction, the browser may block automatic sound playback, preventing immediate audio activation.  
+- The AI takes longer to initialize on its first startup.  
+- Each Large Language Model (LLM) has its own personality and behavior; the same Nyan character may react differently depending on the LLM used.
+
+---
+
 ## ❓ Frequently Asked Questions (FAQ)
 
 - **Q: How do I start using Nyan AI?**  
