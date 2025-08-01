@@ -59,7 +59,7 @@ Nyan Cards are visual, shareable scripts that enable users to AI automate web ta
 > Join us and make AI web automation cute, intuitive, and shareable! 
 
 - 👉 Install the extension: [Chrome Web Store](https://chrome.google.com/webstore/nyan-ai)  
-- 👉 Join our Discord: [Nyan AI Community](https://discord.gg/nyan-ai)  
+- 👉 Join our Discord: [Nyan AI Community](https://discord.gg/S63V44n3)  
 - 👉 Visit our site: [https://nyan-ai.app](https://nyan-ai.app)
 
 ---
