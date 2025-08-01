@@ -60,7 +60,7 @@
 > 現在就加入我們，讓 AI 網頁自動化變得可愛、直覺、可分享！
 
 - 👉 安裝擴充功能：[Chrome Web Store](https://chrome.google.com/webstore/nyan-ai)  
-- 👉 加入 Discord 社群：[喵 AI 討論區](https://discord.gg/nyan-ai)  
+- 👉 加入 Discord 社群：[喵 AI 討論區](https://discord.gg/S63V44n3)  
 - 👉 官方網站：[https://nyan-ai.app](https://nyan-ai.app)
 
 ---
