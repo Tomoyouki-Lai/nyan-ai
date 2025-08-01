@@ -75,7 +75,7 @@ Nyan Cards are visual, shareable scripts that enable users to automate web tasks
      - Go to `chrome://extensions/` in your browser  
      - Enable "Developer mode" → Click "Load unpacked" and select the unzipped folder
 
-  2. **Or install from the [Chrome Web Store](https://chrome.google.com/webstore/xxx) **
+  2. **Or install from the [Chrome Web Store](https://chrome.google.com/webstore/xxx)**
 
   After installation:
 
