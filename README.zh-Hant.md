@@ -68,12 +68,21 @@
 ## ❓ 常見問題（FAQ）
 
 - **Q: 我要怎麼開始使用喵AI？**  
-  A:  
-  1. 安裝 [喵AI Chrome 擴充功能](https://chrome.google.com/webstore/xxx)  
-  2. 用 Google 帳號登入  
-  3. 點擊喵AI 圖示打開選單  
-  4. 輸入你的免費 LLM API Key（OpenAI 等）  
-  5. 點左上角開關啟用喵AI → 左下角會出現可愛喵咪，就可以開始互動囉！
+  你可以用兩種方式將 Nyan AI 安裝到自己的 Chrome 瀏覽器：
+
+  1. **從本 GitHub 專案下載原始碼，自行安裝（開發者模式）**
+     - 點右上角 Code → Download ZIP 解壓縮  
+     - 在 Chrome 開啟擴充功能頁（chrome://extensions/）  
+     - 啟用「開發者模式」，點選「載入已解壓縮的擴充功能」並選擇資料夾
+
+  2. **或前往 [Chrome 線上應用程式商店](https://chrome.google.com/webstore/nyan-ai) 安裝正式版（如果已上架）**
+
+  安裝完成後：
+
+  - 使用 Google 帳號登入  
+  - 點擊喵AI 圖示開啟選單  
+  - 輸入你的免費 LLM API Key（例如 OpenAI）  
+  - 點左上角的開關啟用喵AI → 左下角會出現可愛的喵咪，準備互動囉！
 
 - **Q: 不會寫 Prompt 也能用嗎？**  
   A: 當然可以！你可以直接用別人分享的喵卡和角色，完全不用寫提示詞。
