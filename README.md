@@ -68,11 +68,21 @@ Nyan Cards are visual, shareable scripts that enable users to automate web tasks
 
 - **Q: How do I start using Nyan AI?**  
   A:  
-  1. Install the [Nyan AI Chrome Extension](https://chrome.google.com/webstore/xxx)  
-  2. Log in with your Google account  
-  3. Click the Nyan AI icon to open the menu  
-  4. Enter your free LLM API key (e.g. OpenAI)  
-  5. Toggle the switch in the top-left → A cute cat will appear in the bottom-left corner — and you're ready to chat!
+  You can install Nyan AI into your Chrome browser in two ways:
+
+  1. **Install from this GitHub repo (Developer Mode)**  
+     - Click the green `Code` button → Download ZIP  
+     - Go to `chrome://extensions/` in your browser  
+     - Enable "Developer mode" → Click "Load unpacked" and select the unzipped folder
+
+  2. **Or install from the [Chrome Web Store](https://chrome.google.com/webstore/nyan-ai) (if available)**
+
+  After installation:
+
+  - Sign in with your Google account  
+  - Click the Nyan AI icon to open the menu  
+  - Enter your free LLM API key (e.g. OpenAI)  
+  - Toggle the switch in the top-left → A cute cat will appear in the bottom-left — you're ready to chat!
 
 - **Q: I don’t know how to write prompts — can I still use it?**  
   A: Absolutely! You can use shared Nyan Cards and characters made by others — no prompt writing needed.
