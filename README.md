@@ -60,7 +60,38 @@ Nyan Cards are visual, shareable scripts that enable users to automate web tasks
 
 - 👉 Install the extension: [Chrome Web Store](https://chrome.google.com/webstore/nyan-ai)  
 - 👉 Join our Discord: [Nyan AI Community](https://discord.gg/nyan-ai)  
-- 👉 Visit our site: [https://nyan-ai.app](https://nyan-ai.app)  
+- 👉 Visit our site: [https://nyan-ai.app](https://nyan-ai.app)
+
+---
+
+## ❓ Frequently Asked Questions (FAQ)
+
+- **Q: How do I start using Nyan AI?**  
+  A:  
+  1. Install the [Nyan AI Chrome Extension](https://chrome.google.com/webstore/nyan-ai)  
+  2. Log in with your Google account  
+  3. Click the Nyan AI icon to open the menu  
+  4. Enter your free LLM API key (e.g. OpenAI)  
+  5. Toggle the switch in the top-left → A cute cat will appear in the bottom-left corner — and you're ready to chat!
+
+- **Q: I don’t know how to write prompts — can I still use it?**  
+  A: Absolutely! You can use shared Nyan Cards and characters made by others — no prompt writing needed.
+
+- **Q: Where can I find Nyan Cards?**  
+  A: There are two ways to collect Nyan Cards:
+
+  1. **From the official Nyan AI Card Marketplace** → Just drag a card onto the on-screen cat to add it.  
+  2. **From a local `.json` file** → Drag a Nyan Card `.json` file from your desktop directly onto the cat — it will load instantly!
+
+  💡 This lets you share cards privately via GitHub, cloud storage, or direct links with friends!
+
+- **Q: How do I run a Nyan Card?**  
+  A: Open the Nyan AI menu → Double-click the card you want to run → The cat will begin executing the task!
+
+- **Q: Can I create my own Nyan Cards or characters?**  
+  A: Yes! We welcome all creators — feel free to make and share your own characters and task flows ❤️
+
+👉 Full guides available at: [docs/](./docs/)
 
 ---
 
