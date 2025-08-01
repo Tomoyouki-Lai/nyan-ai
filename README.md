@@ -151,8 +151,8 @@ Whether you're:
 - 🧑‍💻 A JavaScript or frontend developer
 - 😺 A catgirl enjoyer with a builder mindset
 
-If you're excited about **AI x web interaction**, you don't even need to code —  
-Just hop into our Discord to collaborate, suggest ideas, or build Nyan Cards together!
+As long as you’re interested in **AI x web interaction** or **AI Vibe Coding**, it’s okay if you don’t know how to code!
+Join our Discord to discuss, co-create, suggest feature ideas, and share Nyan Cards!
 
 👉 [Join our Discord](https://discord.gg/S63V44n3)
 
