@@ -61,15 +61,7 @@
 
 - 👉 安裝擴充功能：[Chrome Web Store](https://chrome.google.com/webstore/nyan-ai)  
 - 👉 加入 Discord 社群：[喵 AI 討論區](https://discord.gg/nyan-ai)  
-- 👉 官方網站：[https://nyan-ai.app](https://nyan-ai.app)  
-
----
-
-## 🐾 開發者指南
-
-- 本專案採用 [Apache-2.0 License](./LICENSE)  
-- 支援自訂角色、主題與任務流程  
-- 歡迎貢獻喵卡或角色包參與社群共創！  
+- 👉 官方網站：[https://nyan-ai.app](https://nyan-ai.app)
 
 ---
 
@@ -89,6 +81,14 @@
 
 ### 🔐 個人化與 Web3 擴充
 - **喵咪專屬加密錢包**：支援喵卡簽章、角色資產授權與未來經濟系統整合（可選開啟）
+
+---
+
+## 🐾 開發者指南
+
+- 本專案採用 [Apache-2.0 License](./LICENSE)  
+- 支援自訂角色、主題與任務流程  
+- 歡迎貢獻喵卡或角色包參與社群共創！  
 
 ---
 
