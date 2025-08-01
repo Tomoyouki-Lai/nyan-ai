@@ -64,6 +64,25 @@ Nyan Cards are visual, shareable scripts that enable users to automate web tasks
 
 ---
 
+## 📌 Upcoming Features & Development Roadmap
+
+We're building a smarter, cuter, and more autonomous Nyan AI. Here's what's coming next:
+
+### 🤖 AI Capability Expansion
+- **Long-Term Memory System**: Characters will gain memory across tasks and develop persistent personalities.
+- **User Profiling**: The AI learns user preferences to personalize dialogue, tasks, and recommendations.
+- **Advanced Live2D Control Engine**: More expressive motions, facial expressions, and real-time voice-sync integration.
+
+### 🎴 Smart Nyan Card Management
+- **Intelligent Search & Installation**: Nyan AI can automatically search, install, and activate Nyan Cards based on task needs (with user permission).
+- **Scheduled Execution**: Run specific Nyan Cards daily, weekly, or at set times via task scheduling.
+- **Multi-Card Chaining**: Link multiple cards into a seamless task flow to handle complex workflows.
+
+### 🔐 Personalization & Web3 Expansion
+- **Encrypted Nyan Wallet**: Support for Nyan Card signing, character asset licensing, and optional future economic system integration.
+
+---
+
 ## 🐾 Developer Guide
 
 - Licensed under [Apache-2.0 License](./LICENSE)  
