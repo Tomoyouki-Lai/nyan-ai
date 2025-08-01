@@ -69,7 +69,7 @@
 
 - **Q: 我要怎麼開始使用喵AI？**  
   A:  
-  1. 安裝 [喵AI Chrome 擴充功能](https://chrome.google.com/webstore/nyan-ai)  
+  1. 安裝 [喵AI Chrome 擴充功能](https://chrome.google.com/webstore/xxx)  
   2. 用 Google 帳號登入  
   3. 點擊喵AI 圖示打開選單  
   4. 輸入你的免費 LLM API Key（OpenAI 等）  
