@@ -75,7 +75,7 @@
      - 在 Chrome 開啟擴充功能頁（chrome://extensions/）  
      - 啟用「開發者模式」，點選「載入已解壓縮的擴充功能」並選擇資料夾
 
-  2. **或前往 [Chrome 線上應用程式商店](https://chrome.google.com/webstore/xxx) 安裝 **
+  2. **或前往 [Chrome 線上應用程式商店](https://chrome.google.com/webstore/xxx) 安裝**
 
   安裝完成後：
 
