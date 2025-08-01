@@ -96,7 +96,7 @@ We're building a smarter, cuter, and more autonomous Nyan AI. Here's what's comi
 We're not just coding — we're co-creating with AI.
 
 Whether you're:
-- 🤖 An AI prompt engineer or ChatGPT power user
+- 🤖 An AI prompt engineer or LLM power user
 - ✨ A creative UI/UX designer
 - 🧑‍💻 A JavaScript or frontend developer
 - 😺 A catgirl enjoyer with a builder mindset
