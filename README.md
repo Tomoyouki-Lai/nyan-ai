@@ -136,6 +136,17 @@ We're building a smarter, cuter, and more autonomous Nyan AI. Here's what's comi
 
 ---
 
+## 🛠️ Core Architecture & Technologies
+
+The Nyan AI extension is built with a simplified, Vibe Coding–friendly web tech stack, designed around an event-driven modular architecture:
+
+- **Core Interaction**: Powered by Live2D and PixiJS to deliver smooth, expressive character animations.  
+- **State Management**: Uses `chrome.storage.local` as a reactive state center, decoupling UI, content scripts, and background logic.  
+- **Natural Language Understanding (NLU)**: A lightweight intent parser (`nluProcessor.js`) translates user input into structured executable commands.  
+- **Task Engine**: A state machine–based engine in `background.js` executes complex `steps` flows defined in Nyan Cards.  
+- **Backend Services**: Fully serverless backend powered by Firebase (Authentication, Realtime Database, Storage) for high availability and scalability.  
+- **AI Vibe Coding Traits**: Simplified file structure with minimal tech debt and configuration, making it easy for non-engineers to read, understand, and build upon.
+
 ## 🐾 Developer Guide
 
 - Licensed under [Apache-2.0 License](./LICENSE)  
