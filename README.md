@@ -149,6 +149,8 @@ The Nyan AI extension is built with a simplified, Vibe Coding–friendly web tec
 - **Backend Services**: Fully serverless backend powered by Firebase (Authentication, Realtime Database, Storage) for high availability and scalability.  
 - **AI Vibe Coding Traits**: Simplified file structure with minimal tech debt and configuration, making it easy for non-engineers to read, understand, and build upon.
 
+---
+
 ## 🐾 Developer Guide
 
 - Licensed under [Apache-2.0 License](./LICENSE)  
