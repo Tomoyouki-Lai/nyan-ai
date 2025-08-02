@@ -90,7 +90,7 @@ Nyan Cards are visual, shareable scripts that enable users to AI automate web ta
 
   - Sign in with your Google account  
   - Click the Nyan AI icon to open the menu  
-  - Enter your free LLM API key (e.g. OpenAI)  
+  - Enter your free LLM API Key (available from platforms like OpenRouter, Google AI Studio, OpenAI, etc.)
   - Toggle the switch in the top-left → A cute cat will appear in the bottom-left — you're ready to chat!
 
 - **Q: I don’t know how to write prompts — can I still use it?**  
