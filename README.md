@@ -153,6 +153,11 @@ The Nyan AI extension is built with a simplified, Vibe Coding–friendly web tec
 
 ## 🐾 Developer Guide
 
+- Frontend-Backend Separation: index.js focuses on UI rendering and user interaction, while background.js handles all core logic, state management, and API calls.
+- Highly Configurable: With popup.js and chrome.storage, users can easily switch LLMs, TTS services, characters, and features (via Meow Cards) without modifying the core code.
+- Prompt Engineering Core: promptProcessor.js is the soul of the system. It effectively injects dynamic information (personality, history, tasks) into prompts sent to the LLM, enabling contextual awareness and role-playing.
+- Structured Output: The entire flow heavily relies on the LLM's ability to stably output JSON in a specific format. This is key to automating animations, voice, and interactive options.
+- Multimodal Output: The final result is not just text—it also integrates Live2D animation and voice, providing a rich interactive experience.
 - Licensed under [Apache-2.0 License](./LICENSE)  
 - Create your own characters, themes, or workflow cards  
 - Contribute new Nyan Cards or character packs!
