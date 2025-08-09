@@ -78,6 +78,8 @@
 - **表格填寫**：適用於引導使用者完成註冊、預約、問卷等資料填寫
 - **遊戲**：適用於互動娛樂、任務闖關與積分競賽
 
+- <img width="128" height="128" alt="Image" src="https://github.com/user-attachments/assets/7d9c70db-bca5-4ba4-ae5b-0974bf77a7fe" />
+
 ... 您的更多創意
 
 ---
