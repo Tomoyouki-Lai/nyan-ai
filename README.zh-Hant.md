@@ -70,7 +70,7 @@
 
 > 歡迎試用、分享與重製我們的展示喵卡
 
-- **導航與獎勵**：引導使用者到特定網站完成多步驟任務並在完成後發放獎勵。 → cards/guidance and rewards-template.json
+- **導航與獎勵**：引導使用者到特定網站完成多步驟任務並在完成後發放獎勵。 → <img width="32" height="32" alt="Image" src="https://github.com/user-attachments/assets/7d9c70db-bca5-4ba4-ae5b-0974bf77a7fe" /> cards/guidance and rewards-template.json
 - **服務介紹**：適用於客戶服務、功能講解或吸引購買行為 → cards/customer support-template.json
 - **產品展示**：適用於呈現商品特點、規格、教學與引導使用者體驗服務 → cards/product showcase-template.json
 - **搜尋**：適用於快速定位資訊，如地點、內容、價格等
@@ -78,7 +78,7 @@
 - **表格填寫**：適用於引導使用者完成註冊、預約、問卷等資料填寫
 - **遊戲**：適用於互動娛樂、任務闖關與積分競賽
 
-- <img width="128" height="128" alt="Image" src="https://github.com/user-attachments/assets/7d9c70db-bca5-4ba4-ae5b-0974bf77a7fe" />
+- <img width="32" height="32" alt="Image" src="https://github.com/user-attachments/assets/7d9c70db-bca5-4ba4-ae5b-0974bf77a7fe" />
 
 ... 您的更多創意
 
