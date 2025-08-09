@@ -68,12 +68,12 @@
 
 ## 💡 喵卡適用場景
 
-> 歡迎試用、分享與重製我們的展示喵卡
+> 歡迎試用、分享與重製我們的展示喵卡，展示檔案可以在 
 
-- **個人伴侶**：適用於情感互動、日常陪伴與個人化提醒。 → 
-- **導航與獎勵**：引導使用者到特定網站完成多步驟任務並在完成後發放獎勵。 → cards/guidance and rewards-template.json
-- **服務介紹**：適用於客戶服務、功能講解或吸引購買行為 → cards/customer support-template.json
-- **產品展示**：適用於呈現商品特點、規格、教學與引導使用者體驗服務 → cards/product showcase-template.json
+- **個人伴侶**：適用於情感互動、日常陪伴與個人化提醒。 → cat_girl_template.json
+- **導航與獎勵**：引導使用者到特定網站完成多步驟任務並在完成後發放獎勵。 → guidance_rewards_template.json
+- **服務介紹**：適用於客戶服務、功能講解或吸引購買行為 → customer_support_template.json
+- **產品展示**：適用於呈現商品特點、規格、教學與引導使用者體驗服務 → product_showcase_template.json
 - **搜尋**：適用於快速定位資訊，如地點、內容、價格等。 → 
 - **購物**：適用於挑選、比較、下單與付款流程引導。 → 
 - **表格填寫**：適用於引導使用者完成註冊、預約、問卷等資料填寫。 → 
