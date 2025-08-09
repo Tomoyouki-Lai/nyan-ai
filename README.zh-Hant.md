@@ -63,6 +63,22 @@
 
 ## 🚀 開始使用
 
+  你可以用兩種方式將 Nyan AI 安裝到自己的 Chrome 瀏覽器：
+
+  1. **從本 GitHub 專案下載原始碼，自行安裝（開發者模式）**
+     - 點右上角 Code → Download ZIP 解壓縮  
+     - 在 Chrome 開啟擴充功能頁（chrome://extensions/）  
+     - 啟用「開發者模式」，點選「載入已解壓縮的擴充功能」並選擇資料夾
+
+  2. **或前往 [Chrome 線上應用程式商店](https://chrome.google.com/webstore/xxx) 安裝**
+
+  安裝完成後：
+
+  - 使用 Google 帳號登入  
+  - 點擊喵AI 圖示開啟選單  
+  - 輸入你的免費 LLM API Key（可從 OpenRouter、Google AI Studio、OpenAI 等平台免費獲取）  
+  - 點左上角的開關啟用喵AI → 左下角會出現可愛的喵咪，準備互動囉！
+
 > 現在就加入我們，讓 AI 網頁自動化變得可愛、直覺、可分享！
 
 - 👉 安裝擴充功能：[Chrome Web Store](https://chrome.google.com/webstore/nyan-ai)  
