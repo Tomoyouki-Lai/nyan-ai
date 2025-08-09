@@ -68,7 +68,7 @@
 
 ## 💡 喵卡適用場景（歡迎試用、分享與重製我們的展示喵卡）
 
-- 導航與獎勵功能：適用於指引使用者完成多步驟任務並在完成後發放獎勵 → cards/guidance and rewards-template.json
+- 導航與獎勵：適用於指引使用者完成多步驟任務並在完成後發放獎勵 → cards/guidance and rewards-template.json
 - 個人伴侶：適用於情感互動、日常陪伴與個人化提醒
 - 服務介紹：適用於客戶服務、功能講解或吸引購買行為 → cards/customer support-template.json
 - 產品展示：適用於呈現商品特點、規格、教學與引導使用者體驗服務 → cards/product showcase-template.json
