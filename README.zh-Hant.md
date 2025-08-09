@@ -75,11 +75,11 @@
   安裝完成後：
 
   - 使用 Google 帳號登入  
-  - 點擊喵AI 圖示開啟選單  
+  - 點擊喵AI圖示開啟選單  
   - 輸入你的免費 LLM API Key（可從 OpenRouter、Google AI Studio、OpenAI 等平台免費獲取）  
   - 點左上角的開關啟用喵AI → 左下角會出現可愛的喵咪，準備互動囉！
 
-> 現在就加入我們，讓 AI 網頁自動化變得可愛、直覺、可分享！
+> 現在就加入我們，讓喵AI變得可愛、直覺、可分享！
 
 - 👉 安裝擴充功能：[Chrome Web Store](https://chrome.google.com/webstore/nyan-ai)  
 - 👉 加入 Discord 社群：[喵 AI 討論區](https://discord.gg/S63V44n3)  
