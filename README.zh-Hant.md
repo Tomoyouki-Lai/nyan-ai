@@ -1,4 +1,4 @@
-![Image](https://github.com/user-attachments/assets/b161a8fb-5f4f-4107-8ad3-51e308e170ca)
+
 [English](README.md) | [繁中](README.zh-Hant.md) 
 
 # 🐾 喵 AI（Nyan AI） - AI 助手分享網站
