@@ -1,185 +1,215 @@
 ![Image](https://github.com/user-attachments/assets/351a0f07-69d1-463b-8d6d-fb90e445ee17)
-[English](README.md) | [繁中](README.zh-Hant.md) 
+[English](README.md) | [繁中](README.zh-Hant.md)
 
-# 🐾 Nyan AI - The Next-Gen Interactive Web Agent Sharing Platform
+# 🐾 Nyan AI – AI Assistant Sharing Platform
 
-> Web automation is no longer just about you — it's about everyone.  
-> With Nyan AI, you're not just automating websites — you're sharing and co-creating experiences.
+> Using AI is no longer just your business — it’s for everyone.
 
----
-
-<img width="1218" height="633" alt="Image" src="https://github.com/user-attachments/assets/d8340957-9a86-482a-8656-53fea331fd8c" />
-
-## 🌟 What is Nyan AI?
-
-**Nyan AI** is a new kind of AI web automation platform that combines **anime-style assistant characters**, a **shareable script system (Nyan Cards)**, and a **community-first approach**. No coding required — users can view, run, and share web agent tasks with ease.
-
-Unlike traditional Web Agents, Nyan AI is not just about automation — it's about communication, growth, and community.
+**Nyan AI** is an AI assistant sharing platform that combines **anime-style virtual characters** with a **shareable task script system (Nyan Cards)**, built around the idea of **community co-creation**.
+Users don’t need to write complicated prompts — simply click on a **Nyan Card** to let AI **“understand, execute, and share” web tasks** with ease.
 
 ---
 
-## 🆚 Nyan AI vs Traditional Web Agents
+## 🆚 Nyan AI vs. Traditional Web Agents
 
-| Feature              | Traditional Web Agent     | 🐾 Nyan AI                                |
-|----------------------|---------------------------|--------------------------------------------|
-| **Usage Model**       | B2C Tool                  | B2C2C Community Sharing Platform           |
-| **Execution Speed**   | Slow, re-analyzes each time | Fast, reuse community-created workflows  |
-| **Success Rate**      | Medium                    | High (community-validated workflows)       |
-| **Character Interaction** | None                  | Yes, built-in anime-style assistant        |
-| **Sharing Capability**| Almost none              | Yes, visual scripts and one-click sharing  |
-| **Customization**     | None                     | Yes, customize character style and tone    |
-| **Marketing & Virality** | None                 | Yes, designed for sharing and engagement   |
-| **Compute Cost**      | High                     | Low, with caching and task reuse           |
-| **Prompt Skills Needed** | Required             | Not needed for users; contributors only    |
-| **Language Support**  | English only             | Multilingual UI with localized character voices |
+| Feature                           | 🐌 Traditional Web Agent                            | 🚀 Nyan AI                                                     |
+| --------------------------------- | --------------------------------------------------- | -------------------------------------------------------------- |
+| **Ease of Use**                   | High skill barrier; requires prompt crafting        | Low; prompts are pre-written by contributors                   |
+| **Cost**                          | High; each run consumes large compute resources     | Low; with task caching & sharing                               |
+| **Time**                          | Slow; re-analyzes from scratch (5–10 min)           | Fast; reuses shared task scripts (≤30 sec)                     |
+| **Success Rate**                  | Medium; depends on skill & AI efficiency (\~50–70%) | High; pre-validated by the community                           |
+| **Virtual Character Interaction** | None                                                | Yes; built-in catgirl interactions for an immersive experience |
+| **Sharing**                       | Almost none                                         | Yes; visualized tasks & one-click sharing                      |
+| **Customization**                 | None                                                | Yes; open-source workflows & character styles                  |
+| **User Participation**            | None (B2C tool)                                     | Yes; B2C2C community sharing model                             |
+| **Marketing Potential**           | None                                                | Yes; viral-friendly with social sharing                        |
+| **Language Support**              | Primarily English                                   | 16 languages, with localized character voices                  |
+
+---
+
+## 🌟 What is a Nyan Agent?
+
+> Your loyal companion, personal butler, and intelligent assistant in the digital world.
+
+The Nyan Agent offers **two operation modes** — *Chat Mode* and *Work Mode* — that you can switch between anytime:
+
+**Chat Mode**:
+
+* Casual conversation, jokes, and fun interactions for a friendly companion experience.
+* Proactively offers suggestions or related topics based on your conversation.
+
+**Work Mode**:
+
+* Automatically detects and recommends suitable Nyan Cards, which you can approve to launch instantly.
+* Or manually start any Nyan Card (double-click) for full control.
 
 ---
 
 ## 🎴 What is a Nyan Card?
 
-Nyan Cards are visual, shareable scripts that enable users to AI automate web tasks with ease. Features include:
+> More than just a tool — it’s a bridge for **communication, promotion, and co-creation**.
 
-- 🧩 Drag-and-drop UI for building web task flows  
-- 🗂 Embedded character voice guidance and tips  
-- 📤 Shareable with friends or the community in one click  
-- 🧠 Backed by AI modules for smart, real-time automation  
+A Nyan Card is a micro AI assistant for customized tasks — visualized and shareable web task scripts to make your workflows smarter and more fun.
 
----
+### ✨ Key Features
 
-## 💡 Use Cases
+* 🧩 **Drag-and-Drop Builder** — Easily create task flows
+* 🧠 **AI Instant Parsing** — Auto-executes tasks to save time
+* 🧑‍💻 **Actions-to-Card** — Convert your actions into open-source Nyan Cards
+* 🗂 **Multimedia Guidance** — Embed character voices and prompts
+* 📤 **Easy Sharing** — Send Nyan Cards to friends or communities
 
-- Quickly interact with shopping, restaurant, or social platforms  
-- Turn a multi-step process into a Nyan Card anyone can reuse  
-- Use characters (like catgirls) to enhance interaction and branding  
-- Build a growing library of community-created automation cards  
+### 📥 How to Get Nyan Cards
 
----
-
-## 🚀 Get Started
-
-> Join us and make AI web automation cute, intuitive, and shareable! 
-
-- 👉 Install the extension: [Chrome Web Store](https://chrome.google.com/webstore/nyan-ai)  
-- 👉 Join our Discord: [Nyan AI Community](https://discord.gg/S63V44n3)  
-- 👉 Visit our site: [https://nyan-ai.app](https://nyan-ai.app)
+1. **From the Official Nyan AI Card Marketplace**
+   Drag any card you like from the marketplace onto your Nyan character to save it to your collection.
+2. **Import a `.json` Card File Privately**
+   Create or exchange `.json` cards privately; drag them onto the Nyan character to load them securely.
+   Cards can be shared via DMs, communities, or cloud services.
 
 ---
 
-## ⚠️ Notes on Chrome Extension and AI Features
+## 💡 Nyan Card Use Cases
 
-- If the extension stays idle on a webpage for too long, please reload the page to ensure smooth operation.  
-- When you first enter a webpage, if there is no user interaction, the browser may block automatic sound playback, preventing immediate audio activation.  
-- The AI takes longer to initialize on its first startup.  
-- Each Large Language Model (LLM) has its own personality and behavior; the same Nyan character may react differently depending on the LLM used.
+> Try, share, and remix our demo Nyan Cards — available in the `template` folder of this repo.
 
----
+* **Personal Companion** — Emotional interaction, reminders → `cat_girl_template.json`
+* **Guidance & Rewards** — Directs users through multi-step tasks with rewards → `guidance_rewards_template.json`
+* **Service Introduction** — Customer support, feature walkthroughs → `customer_support_template.json`
+* **Product Showcase** — Present features, specs, tutorials → `product_showcase_template.json`
+* **Search** — Locate info like places, content, prices → `shopping_search_template.json`
+* **Shopping** — Selection, comparison, checkout guidance → *(coming soon...)*
+* **Form Filling** — Registration, reservations, surveys → *(coming soon...)*
+* **Games** — Interactive challenges and competitions → *(coming soon...)*
 
-## ❓ Frequently Asked Questions (FAQ)
-
-- **Q: How do I start using Nyan AI?**  
-  A:  
-  You can install Nyan AI into your Chrome browser in two ways:
-
-  1. **Install from this GitHub repo (Developer Mode)**  
-     - Click the green `Code` button → Download ZIP  
-     - Go to `chrome://extensions/` in your browser  
-     - Enable "Developer mode" → Click "Load unpacked" and select the unzipped folder
-
-  2. **Or install from the [Chrome Web Store](https://chrome.google.com/webstore/xxx)**
-
-  After installation:
-
-  - Sign in with your Google account  
-  - Click the Nyan AI icon to open the menu  
-  - Enter your free LLM API Key (available from platforms like OpenRouter, Google AI Studio, OpenAI, etc.)
-  - Toggle the switch in the top-left → A cute cat will appear in the bottom-left — you're ready to chat!
-
-- **Q: I don’t know how to write prompts — can I still use it?**  
-  A: Absolutely! You can use shared Nyan Cards and characters made by others — no prompt writing needed.
-
-- **Q: Where can I find Nyan Cards?**  
-  A: There are two ways to collect Nyan Cards:
-
-  1. **From the official Nyan AI Card Marketplace** → Just drag a card onto the on-screen cat to add it.  
-  2. **From a local `.json` file** → Drag a Nyan Card `.json` file from your desktop directly onto the cat — it will load instantly!
-  
-  💡 This lets you share cards privately via GitHub, cloud storage, or direct links with friends!
-
-- **Q: How do I run a Nyan Card?**  
-  A: Open the Nyan AI menu → Double-click the card you want to run → The cat will begin executing the task!
-
-- **Q: Can I create my own Nyan Cards or characters?**  
-  A: Yes! We welcome all creators — feel free to make and share your own characters and task flows ❤️
-  
-  👉 Full guides available at: [docs/](./docs/)
-
-- **Q: Is my LLM API Key safe?**  
-  A: Your API key is stored locally in your Chrome browser using `chrome.storage.local` and **is never** uploaded to our servers.  
-  All requests to the LLM model are sent directly from your browser to the provider you choose, ensuring your key stays secure.
+…and your ideas!
 
 ---
 
-## 📌 Upcoming Features & Development Roadmap
+## 🚀 Getting Started
 
-We're building a smarter, cuter, and more autonomous Nyan AI. Here's what's coming next:
+You can install Nyan AI in two ways:
 
-### 🤖 AI Capability Expansion
-- **Long-Term Memory System**: Characters will gain memory across tasks and develop persistent personalities.
-- **User Profiling**: The AI learns user preferences to personalize dialogue, tasks, and recommendations.
-- **Advanced Live2D Control Engine**: More expressive motions, facial expressions, and real-time voice-sync integration.
+1. **From this GitHub repo (Developer Mode)**
+
+   * Click `Code` → `Download ZIP` and unzip
+   * Open Chrome Extensions page (`chrome://extensions/`)
+   * Enable *Developer Mode*, then *Load unpacked extension* and select the folder
+
+2. **From the [Chrome Web Store](https://chrome.google.com/webstore/xxx)**
+
+After installation:
+
+* Sign in with your Google account
+* Click the Nyan AI icon to open the menu
+* Enter your free LLM API key (get one from OpenRouter, Google AI Studio, OpenAI, etc.)
+* Switch it ON — a cute catgirl will appear in the bottom-left corner of your screen, ready to assist!
+
+> Make AI cute, intuitive, and shareable!
+
+* 👉 **Chrome Extension**: [Chrome Web Store](https://chrome.google.com/webstore/nyan-ai)
+* 👉 **Discord Community**: [Nyan AI Forum](https://discord.gg/S63V44n3)
+* 👉 **Official Site**: [https://nyan-ai.app](https://nyan-ai.app)
+
+---
+
+## ⚠️ Chrome Extension & AI Notes
+
+* If idle for too long, reload the page to keep it running smoothly.
+* Chrome may block autoplay audio unless you interact with the page first.
+* First launch may take longer to prepare.
+* Different LLMs have different personalities — the same catgirl may behave differently on different models.
+
+---
+
+## ❓ FAQ
+
+* **Q: Why does the catgirl disappear on a new page?**
+  A: Chrome Web Store security policy! If you install from source, she can appear instantly.
+
+* **Q: Can I use it without writing prompts?**
+  A: Absolutely! Just use shared Nyan Cards & characters — no prompt writing required.
+
+* **Q: How do I run a Nyan Card?**
+  A: Open the menu → double-click the card → watch her get to work!
+
+* **Q: Can I create my own Nyan Cards or characters?**
+  A: Yes! Share your creations with the community ❤️
+
+  👉 See [docs/](./docs/) for the full guide.
+
+* **Q: Is my LLM API key safe?**
+  A: Yes — it’s stored locally in `chrome.storage.local` and never uploaded to our servers. All LLM requests go directly from your browser to your chosen provider.
+
+---
+
+## 📌 Roadmap
+
+We’re building a smarter, cuter, more autonomous Nyan AI. Key future plans:
+
+### 🤖 AI Capabilities
+
+* **Long-term Memory** — Persistent personality & cross-task memory
+* **User Profiling** — Learn preferences to tailor responses & recommendations
+* **Advanced Live2D Engine** — More detailed movements, expressions, and TTS sync
 
 ### 🎴 Smart Nyan Card Management
-- **Intelligent Search & Installation**: Nyan AI can automatically search, install, and activate Nyan Cards based on task needs (with user permission).
-- **Scheduled Execution**: Run specific Nyan Cards daily, weekly, or at set times via task scheduling.
-- **Multi-Card Chaining**: Link multiple cards into a seamless task flow to handle complex workflows.
-- **Model Content Protocol (MCP)**: Allows Nyan Cards to connect with various online services and tools, enabling flexible cross-module execution.
 
-### 🔐 Personalization & Web3 Expansion
-- **Encrypted Nyan Wallet**: Support for Nyan Card signing, character asset licensing, and optional future economic system integration.
+* **Smart Search & Install** — Auto-search/install/activate cards (with permission)
+* **Scheduled Card Runs** — Daily, weekly, or specific-time automation
+* **Multi-Card Chaining** — Run multiple cards in sequence for complex workflows
+* **AI Web Automation (Playwright-powered)** — Full browser task automation built into the Nyan Card generator
+* **Model Context Protocol (MCP)** — Integrate cards with online services & tools for flexible cross-module execution
+
+### 🔐 Personalization & Web3
+
+* **Catgirl Crypto Wallet** — For signing cards, managing character assets, and future in-app economy (with permission)
 
 ---
 
-## 🛠️ Core Architecture & Technologies
+## 🛠️ Tech Stack & Architecture
 
-The Nyan AI extension is built with a simplified, Vibe Coding–friendly web tech stack, designed around an event-driven modular architecture:
+Event-driven, modular Chrome extension for *AI Vibe Coding*:
 
-- **Core Interaction**: Powered by Live2D and PixiJS to deliver smooth, expressive character animations.  
-- **State Management**: Uses `chrome.storage.local` as a reactive state center, decoupling UI, content scripts, and background logic.  
-- **Natural Language Understanding (NLU)**: A lightweight intent parser (`nluProcessor.js`) translates user input into structured executable commands.  
-- **Task Engine**: A state machine–based engine in `background.js` executes complex `steps` flows defined in Nyan Cards.  
-- **Backend Services**: Fully serverless backend powered by Firebase (Authentication, Realtime Database, Storage) for high availability and scalability.  
-- **AI Vibe Coding Traits**: Simplified file structure with minimal tech debt and configuration, making it easy for non-engineers to read, understand, and build upon.
+* **Core Interaction**: Live2D + PixiJS for smooth character animations
+* **State Management**: `chrome.storage.local` for reactive decoupling
+* **NLU**: `nluProcessor.js` for lightweight intent parsing
+* **Task Engine**: State-machine workflow execution in `background.js`
+* **Backend**: Firebase (Auth, Realtime DB, Storage) — serverless & highly available
+* **AI Vibe Coding Philosophy**: Flat file structure for accessibility by non-engineers
 
 ---
 
 ## 🐾 Developer Guide
 
-- Licensed under [Apache-2.0 License](./LICENSE)  
-- Create your own characters, themes, or workflow cards  
-- Contribute new Nyan Cards or character packs!
+* Licensed under [Apache-2.0](./LICENSE)
+* Supports custom characters, themes, and workflows
+* Contributions welcome — join us in creating Nyan Cards & characters!
 
 ---
 
-## 🧠 AI Vibe Coding — Build the Future with AI
+## 🧠 AI Vibe Coding — Building the Future with AI
 
-We're not just coding — we're co-creating with AI.
+We’re not just coding traditionally — we’re **co-creating with AI**.
 
-Whether you're:
-- 🤖 An AI prompt engineer or LLM power user
-- ✨ A creative UI/UX designer
-- 🧑‍💻 A JavaScript or frontend developer
-- 😺 A catgirl enjoyer with a builder mindset
+Whether you are:
 
-As long as you’re interested in **AI x web interaction** or **AI Vibe Coding**, it’s okay if you don’t know how to code!
-Join our Discord to discuss, co-create, suggest feature ideas, and share Nyan Cards!
+* 🤖 Prompt engineer / LLM power user
+* ✨ UI/UX designer with big ideas
+* 🧑‍💻 JavaScript / front-end dev
+* 😺 Catgirl fan & creative spirit
 
-👉 [Join our Discord](https://discord.gg/S63V44n3)
+If you love **AI + Web Interaction** or **AI Vibe Coding**, join our Discord and collaborate!
+
+👉 [Join Discord](https://discord.gg/S63V44n3)
 
 ---
 
 ## 📜 License
 
-This project is licensed under **Apache-2.0**.  
-Feel free to use, modify, and share — just keep attribution.
+This project is licensed under **Apache-2.0**.
+Free to use, modify, and share — please retain original attribution.
 
 ---
+
+Generative AI is still in its early stages. While powerful, it may produce unexpected or misleading outputs. Always verify results. Do not use for legal, medical, or advisory purposes.
