@@ -10,7 +10,6 @@
 
 ---
 
-<img width="1218" height="633" alt="Image" src="https://github.com/user-attachments/assets/d8340957-9a86-482a-8656-53fea331fd8c" />
 
 ## 🆚 喵 AI vs 一般 Web Agent
 
