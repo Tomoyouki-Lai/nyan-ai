@@ -13,17 +13,18 @@ Users don’t need to write complicated prompts — simply click on a **Nyan Car
 ## 🆚 Nyan AI vs. Traditional Web Agents
 
 | Feature                           | 🐌 Traditional Web Agent                            | 🚀 Nyan AI                                                     |
-| --------------------------------- | --------------------------------------------------- | -------------------------------------------------------------- |
-| **Ease of Use**                   | High skill barrier; requires prompt crafting        | Low; prompts are pre-written by contributors                   |
-| **Cost**                          | High; each run consumes large compute resources     | Low; with task caching & sharing                               |
-| **Time**                          | Slow; re-analyzes from scratch (5–10 min)           | Fast; reuses shared task scripts (≤30 sec)                     |
-| **Success Rate**                  | Medium; depends on skill & AI efficiency (\~50–70%) | High; pre-validated by the community                           |
+| --------------------------------- | --------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| **Ease of Use**                   | High skill barrier; requires prompt crafting        | Low; prompts are pre-written by contributors                                                   |
+| **Cost**                          | High; each run consumes large compute resources     | Low; with task caching & sharing                                                               |
+| **Time**                          | Slow; re-analyzes from scratch (5–10 min)           | Fast; reuses shared task scripts (≤30 sec)                                                     |
+| **Success Rate**                  | Medium; depends on skill & AI efficiency (\~50–70%) | High; pre-validated by the community                                                           |
 | **Virtual Character Interaction** | None                                                | Yes; built-in catgirl interactions for an immersive experience |
-| **Sharing**                       | Almost none                                         | Yes; visualized tasks & one-click sharing                      |
-| **Customization**                 | None                                                | Yes; open-source workflows & character styles                  |
-| **User Participation**            | None (B2C tool)                                     | Yes; B2C2C community sharing model                             |
-| **Marketing Potential**           | None                                                | Yes; viral-friendly with social sharing                        |
-| **Language Support**              | Primarily English                                   | 16 languages, with localized character voices                  |
+| **Sharing**                       | Almost none                                         | Yes; visualized tasks & one-click sharing                                                      |
+| **Customization**                 | None                                                | Yes; open-source workflows & character styles                                                  |
+| **Reward Mechanism**              | None                                                | Yes — Nyan Card creators can add a “Meow Magic Points” (Meow Points) reward system as needed |
+| **User Participation**            | None (B2C tool)                                     | Yes; B2C2C community sharing model                                                             |
+| **Marketing Potential**           | None                                                | Yes; viral-friendly with social sharing                                                        |
+| **Language Support**              | Primarily English                                   | 16 languages, with localized character voices                                                  |
 
 ---
 
