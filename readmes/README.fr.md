@@ -1,7 +1,4 @@
-Absolument ! Voici la traduction du README en français, avec le lien de menu ajouté comme demandé.
-
----
-
+![Image](https://github.com/user-attachments/assets/351a0f07-69d1-463b-8d6d-fb90e445ee17)
 [English](../README.md) | [繁體中文](README.zh-Hant.md) | [简体中文](README.zh-Hans.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Français](README.fr.md)
 
 # 🐾 Nyan AI - Site de Partage d'Assistants IA
