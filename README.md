@@ -109,7 +109,7 @@ After installation:
 
 * 👉 **Chrome Extension**: [Chrome Web Store](https://chrome.google.com/webstore/xxx)
 * 👉 **Discord Community**: [Nyan AI Forum](https://discord.gg/RHZeq9FC)
-* 👉 **Official Site**: [https://nyan-ai.app](https://www.nyanai.app/)
+* 👉 **Official Site**: [https://www.nyanai.app/](https://www.nyanai.app/)
 
 ---
 
