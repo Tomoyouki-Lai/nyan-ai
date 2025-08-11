@@ -105,7 +105,7 @@
 
 - 👉 安裝擴充功能：[Chrome Web Store](https://chrome.google.com/webstore/xxx)  
 - 👉 加入 Discord 社群：[喵 AI 討論區](https://discord.gg/RHZeq9FC)  
-- 👉 官方網站：[https://nyan-ai.app](https://www.nyanai.app/)
+- 👉 官方網站：[https://www.nyanai.app/](https://www.nyanai.app/)
 
 ---
 

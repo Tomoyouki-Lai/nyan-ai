@@ -104,7 +104,7 @@
 
 - 👉 拡張機能をインストール：[Chrome Web Store](https://chrome.google.com/webstore/xxx)
 - 👉 Discordコミュニティに参加：[ニャンAIディスカッションフォーラム](https://discord.gg/RHZeq9FC)
-- 👉 公式サイト：[https://nyan-ai.app](https://www.nyanai.app/)
+- 👉 公式サイト：[https://www.nyanai.app/](https://www.nyanai.app/)
 
 ---
 

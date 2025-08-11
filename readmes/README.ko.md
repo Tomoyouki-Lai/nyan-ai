@@ -103,7 +103,7 @@
 
 - 👉 확장 프로그램 설치: [Chrome Web Store](https://chrome.google.com/webstore/xxx)
 - 👉 Discord 커뮤니티 가입: [냥 AI 토론 포럼](https://discord.gg/RHZeq9FC)
-- 👉 공식 웹사이트: [https://nyan-ai.app](https://www.nyanai.app/)
+- 👉 공식 웹사이트: [https://www.nyanai.app/](https://www.nyanai.app/)
 
 ---
 
