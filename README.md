@@ -1,5 +1,5 @@
 ![Image](https://github.com/user-attachments/assets/351a0f07-69d1-463b-8d6d-fb90e445ee17)
-[English](README.md) | [繁中](readmes/README.zh-Hant.md) | [简中](readmes/README.zh-Hans.md) | [日本語](readmes/README.ja.md) | [한국어](readmes/README.ko.md) | [Français](readmes/README.fr.md)
+[English](README.md) | [繁中](readmes/README.zh-Hant.md) | [简中](readmes/README.zh-Hans.md) | [日本語](readmes/README.ja.md) | [한국어](readmes/README.ko.md) | [Français](readmes/README.fr.md) | [Deutsch](readmes/README.de.md) | [Español](readmes/README.es.md) | [readmes/Русский](README.ru.md) | [العربية](readmes/README.ar.md) | [हिन्दी](readmes/README.hi.md) | [Italiano](readmes/README.it.md) | [Português](readmes/README.pt.md) | [Bahasa Indonesia](readmes/README.id.md) | [Tiếng Việt](readmes/README.vi.md) | [ภาษาไทย](readmes/README.th.md)
 
 # 🐾 Nyan AI – AI Assistant Sharing Platform
 
