@@ -102,9 +102,9 @@
 
 > 今すぐ参加して、ニャンAIをかわいく、直感的で、共有可能なものにしましょう！
 
-- 👉 拡張機能をインストール：[Chrome Web Store](https://chrome.google.com/webstore/nyan-ai)
-- 👉 Discordコミュニティに参加：[ニャンAIディスカッションフォーラム](https://discord.gg/S63V44n3)
-- 👉 公式サイト：[https://nyan-ai.app](https://nyan-ai.app)
+- 👉 拡張機能をインストール：[Chrome Web Store](https://chrome.google.com/webstore/xxx)
+- 👉 Discordコミュニティに参加：[ニャンAIディスカッションフォーラム](https://discord.gg/RHZeq9FC)
+- 👉 公式サイト：[https://nyan-ai.app](https://www.nyanai.app/)
 
 ---
 
@@ -130,8 +130,6 @@
 
 - **Q: 自分のニャンカードやキャラクターを作成できますか？**
   A: はい、できます！キャラクターやタスクスクリプトの創作と共有を歓迎します。みんなで一緒に使いましょう ❤️
-
-  👉 完全な使い方ガイドを見る：[docs/](./docs/)
 
 - **Q: 私のLLM APIキーは安全ですか？**
   A: あなたのAPIキーは、ローカルのChromeブラウザの安全なストレージ (`chrome.storage.local`) に保存され、私たちのサーバーには**一切アップロードされません**。LLMモデルへのすべてのリクエストは、あなたのブラウザから直接、選択したLLMプロバイダーに送信されるため、キーの安全性が保証されます。
@@ -174,7 +172,7 @@
 
 ## 🐾 開発者向けガイド
 
-- 本プロジェクトは [Apache-2.0 License](./LICENSE) を採用しています。
+- 本プロジェクトは [Apache-2.0 License](../LICENSE) を採用しています。
 - カスタムキャラクター、テーマ、タスクフローをサポート。
 - ニャンカードやキャラクターパックの貢献によるコミュニティ共創を歓迎します！
 
@@ -193,7 +191,7 @@
 なら、**AI x Webインタラクション**や**雰囲気でコーディング (AI Vibe Coding)** に興味があれば、プログラミングができなくても大丈夫！
 私たちのDiscordに参加して、一緒に議論し、共創し、機能のアイデアを出し、ニャンカードを共有しましょう！
 
-👉 [Discordに参加](https://discord.gg/S63V44n3)
+👉 [Discordに参加](https://discord.gg/RHZeq9FC)
 
 ---
 

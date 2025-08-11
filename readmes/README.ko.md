@@ -101,9 +101,9 @@
 
 > 지금 바로 참여하여 냥AI를 귀엽고, 직관적이며, 공유 가능하게 만들어보세요!
 
-- 👉 확장 프로그램 설치: [Chrome Web Store](https://chrome.google.com/webstore/nyan-ai)
-- 👉 Discord 커뮤니티 가입: [냥 AI 토론 포럼](https://discord.gg/S63V44n3)
-- 👉 공식 웹사이트: [https://nyan-ai.app](https://nyan-ai.app)
+- 👉 확장 프로그램 설치: [Chrome Web Store](https://chrome.google.com/webstore/xxx)
+- 👉 Discord 커뮤니티 가입: [냥 AI 토론 포럼](https://discord.gg/RHZeq9FC)
+- 👉 공식 웹사이트: [https://nyan-ai.app](https://www.nyanai.app/)
 
 ---
 
@@ -129,8 +129,6 @@
 
 - **Q: 나만의 냥 카드나 캐릭터를 만들 수 있나요?**
   A: 네! 캐릭터와 태스크 스크립트를 창작하고 공유하여 더 많은 사람들이 함께 사용할 수 있도록 하는 것을 환영합니다 ❤️
-
-  👉 전체 사용 설명서 보기: [docs/](./docs/)
 
 - **Q: 제 LLM API Key는 안전한가요?**
   A: 당신의 API Key는 로컬 Chrome 브라우저의 보안 저장소(`chrome.storage.local`)에 저장되며, 저희 서버에는 **전송되지 않습니다**. LLM 모델에 대한 모든 요청은 당신의 브라우저에서 직접 선택한 LLM 서비스 제공업체로 전송되므로 키의 안전이 보장됩니다.
@@ -173,7 +171,7 @@
 
 ## 🐾 개발자 가이드
 
-- 이 프로젝트는 [Apache-2.0 License](./LICENSE)를 따릅니다.
+- 이 프로젝트는 [Apache-2.0 License](../LICENSE)를 따릅니다.
 - 사용자 정의 캐릭터, 테마 및 태스크 플로우를 지원합니다.
 - 냥 카드나 캐릭터 팩 기여를 통해 커뮤니티 공동 창작에 참여하는 것을 환영합니다!
 
@@ -192,7 +190,7 @@
 이라면, **AI x 웹 인터랙션**이나 **분위기로 코딩하기 (AI Vibe Coding)**에 관심이 있다면, 코딩을 할 줄 몰라도 괜찮습니다!
 저희 Discord에 참여하여 함께 토론하고, 공동 창작하고, 기능 아이디어를 제안하고, 냥 카드를 공유하세요!
 
-👉 [Discord 가입하기](https://discord.gg/S63V44n3)
+👉 [Discord 가입하기](https://discord.gg/RHZeq9FC)
 
 ---
 

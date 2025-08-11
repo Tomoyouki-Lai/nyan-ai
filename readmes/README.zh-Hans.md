@@ -1,5 +1,5 @@
 ![Image](https://github.com/user-attachments/assets/351a0f07-69d1-463b-8d6d-fb90e445ee17)
-[English](../README.md) | [繁中](README.zh-Hant.md) | [简中](README.zh-Hans.md)
+[English](../README.md) | [繁中](README.zh-Hant.md) | [简中](README.zh-Hans.md) | [日本語](README.ja.md) | [한국어](README.ko.md)
 
 # 🐾 喵 AI (Nyan AI) - AI 助手分享网站
 
@@ -102,9 +102,9 @@
 
 > 现在就加入我们，让喵AI变得可爱、直观、可分享！
 
-- 👉 安装扩展程序：[Chrome Web Store](https://chrome.google.com/webstore/nyan-ai)
-- 👉 加入 Discord 社区：[喵 AI 讨论区](https://discord.gg/S63V44n3)
-- 👉 官方网站：[https://nyan-ai.app](https://nyan-ai.app)
+- 👉 安装扩展程序：[Chrome Web Store](https://chrome.google.com/webstore/xxx)
+- 👉 加入 Discord 社区：[喵 AI 讨论区](https://discord.gg/RHZeq9FC)
+- 👉 官方网站：[https://nyan-ai.app](https://www.nyanai.app/)
 
 ---
 
@@ -130,8 +130,6 @@
 
 - **Q: 我可以创建自己的喵卡或角色吗？**
   A: 可以！我们欢迎创作并分享角色与任务脚本，让更多人一起用 ❤️
-
-  👉 查看完整使用教学：[docs/](./docs/)
 
 - **Q: 我的 LLM API Key 安全吗？**
   A: 您的 API Key 储存在您本地 Chrome 浏览器的安全存储区 (`chrome.storage.local`) 中，**不会**上传到我们的服务器。所有对 LLM 模型的请求都是直接从您的浏览器发送到您所选择的 LLM 服务商，确保您的密钥安全。
@@ -174,7 +172,7 @@
 
 ## 🐾 开发者指南
 
-- 本项目采用 [Apache-2.0 License](./LICENSE)
+- 本项目采用 [Apache-2.0 License](../LICENSE)
 - 支持自定义角色、主题与任务流程
 - 欢迎贡献喵卡或角色包参与社区共创！
 
@@ -193,7 +191,7 @@
 只要你对 **AI x 网页互动** 或 **氛围写代码 (AI Vibe Coding)** 有兴趣，不会写代码也没关系！
 加入我们的 Discord，一起讨论、共创、提功能点子、分享喵卡！
 
-👉 [加入 Discord](https://discord.gg/S63V44n3)
+👉 [加入 Discord](https://discord.gg/RHZeq9FC)
 
 ---
 
