@@ -107,9 +107,9 @@ After installation:
 
 > Make AI cute, intuitive, and shareable!
 
-* 👉 **Chrome Extension**: [Chrome Web Store](https://chrome.google.com/webstore/nyan-ai)
-* 👉 **Discord Community**: [Nyan AI Forum](https://discord.gg/S63V44n3)
-* 👉 **Official Site**: [https://nyan-ai.app](https://nyan-ai.app)
+* 👉 **Chrome Extension**: [Chrome Web Store](https://chrome.google.com/webstore/xxx)
+* 👉 **Discord Community**: [Nyan AI Forum](https://discord.gg/RHZeq9FC)
+* 👉 **Official Site**: [https://nyan-ai.app](https://www.nyanai.app/)
 
 ---
 
@@ -135,8 +135,6 @@ After installation:
 
 * **Q: Can I create my own Nyan Cards or characters?**
   A: Yes! Share your creations with the community ❤️
-
-  👉 See [docs/](./docs/) for the full guide.
 
 * **Q: Is my LLM API key safe?**
   A: Yes — it’s stored locally in `chrome.storage.local` and never uploaded to our servers. All LLM requests go directly from your browser to your chosen provider.
@@ -201,7 +199,7 @@ Whether you are:
 
 If you love **AI + Web Interaction** or **AI Vibe Coding**, join our Discord and collaborate!
 
-👉 [Join Discord](https://discord.gg/S63V44n3)
+👉 [Join Discord](https://discord.gg/RHZeq9FC)
 
 ---
 
