@@ -9,6 +9,12 @@
 
 ---
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1fd54b9b-0c32-464a-9376-fe5733ba4e47" width="600">
+</p>
+
+---
+
 ## 🆚 냥 AI vs 일반 웹 에이전트
 
 | 항목 | 🐌 일반 웹 에이전트 | 🚀 냥 AI |
