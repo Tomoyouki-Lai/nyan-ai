@@ -10,6 +10,12 @@ Người dùng không cần phải viết các prompt phức tạp; họ chỉ c
 
 ---
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1fd54b9b-0c32-464a-9376-fe5733ba4e47" width="600">
+</p>
+
+---
+
 ## 🆚 Nyan AI so với các Tác nhân Web Tiêu chuẩn
 
 | Đặc điểm | 🐌 Tác nhân Web Tiêu chuẩn | 🚀 Nyan AI |
