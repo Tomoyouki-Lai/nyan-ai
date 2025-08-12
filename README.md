@@ -10,6 +10,10 @@ Users don’t need to write complicated prompts — simply click on a **Nyan Car
 
 ---
 
+![Image](https://github.com/user-attachments/assets/3ec2120e-5a98-45da-87c1-977e76c06386)
+
+---
+
 ## 🆚 Nyan AI vs. Traditional Web Agents
 
 | Feature                           | 🐌 Traditional Web Agent                            | 🚀 Nyan AI                                                     |
