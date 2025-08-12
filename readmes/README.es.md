@@ -74,7 +74,6 @@ Une Nyan Card est un micro-assistant IA pour des tâches personnalisées — un 
 
 > N'hésitez pas à essayer, partager et modifier nos Nyan Cards de démonstration. Les fichiers de démonstration se trouvent dans le dossier `template` de ce projet GitHub.
 
-- **Compagnon personnel** : Pour l'interaction émotionnelle, la compagnie quotidienne et les rappels personnalisés. → `cat_girl_template.json`
 - **Navigation et récompenses** : Guide les utilisateurs vers un site spécifique pour accomplir des tâches en plusieurs étapes et distribue des récompenses à la fin. → `guidance_rewards_template.json`
 - **Présentation de services** : Pour le service client, l'explication de fonctionnalités ou l'incitation à l'achat. → `customer_support_template.json`
 - **Démonstration de produit** : Pour présenter les caractéristiques d'un produit, ses spécifications, des tutoriels et guider l'expérience utilisateur. → `product_showcase_template.json`
