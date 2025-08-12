@@ -1,0 +1,188 @@
+{
+  "addedTimestamp": 1754445000000,
+  "currentUsage": 0,
+  "usageLimit": 100,
+  "generationCost": 0,
+  "icon": "🌟",
+  "title": "GitHub Star Mission (Tutorial)",
+  "type": "missionPrompt",
+  "description": "A tutorial card that guides you to Nyan AI's GitHub page, finds the star button, and clicks it for you!",
+  "cardMetadata": {
+    "author": "Tomoyouki Lai & AI Assistant",
+    "version": "0.3.2"
+  },
+  "errorHandling": {
+    "default": "FINAL_GENERIC_ERROR"
+  },
+  "initialParams": [
+    {
+      "key": "targetUrl",
+      "value": "https://github.com/Tomoyouki-Lai/ai_nyan"
+    }
+  ],
+  "steps": [
+    {
+      "id": "STEP_0_INFORM_USER_PLAN",
+      "name": "告知使用者計畫",
+      "type": "userInput",
+      "prompt": "Meow~ I'm about to open the GitHub page in a new tab for you. After that, please go to the new page and summon me by clicking the extension icon and flipping the switch. Ready to go?",
+      "choices": [
+        { "text": "I understand, let's go!", "actionValue": "go" },
+        { "text": "Cancel", "actionValue": "cancel" }
+      ],
+      "storeResultAs": "planConfirmation",
+      "onSuccess": "STEP_1_EVALUATE_PLAN_CONFIRMATION",
+      "onFailure": "FINAL_GENERIC_ERROR"
+    },
+    {
+      "id": "STEP_1_EVALUATE_PLAN_CONFIRMATION",
+      "name": "評估計畫確認",
+      "type": "conditionalBranch",
+      "conditionKey": "planConfirmation",
+      "conditionValue": "go",
+      "ifTrue": "STEP_2_OPEN_REPO_IN_NEW_TAB",
+      "ifFalse": "FINAL_USER_CANCELLED_AT_START"
+    },
+    {
+      "id": "STEP_2_OPEN_REPO_IN_NEW_TAB",
+      "name": "打開 GitHub Repo 在新分頁",
+      "type": "domAction",
+      "action": "open_new_tab",
+      "statusMessage": "Okay, meow! Opening the GitHub page now...",
+      "params": { "url": "{{targetUrl}}" },
+      "onSuccess": "STEP_3_SET_PENDING_MISSION",
+      "onFailure": "FINAL_NAVIGATION_TO_REPO_FAILED"
+    },
+    {
+      "id": "STEP_3_SET_PENDING_MISSION",
+      "name": "設定待辦任務以供交接",
+      "type": "updateUserData",
+      "action": "setPendingMission",
+      "params": { 
+        "nextStepId": "STEP_4_RESTORE_AND_CHECK_STAR_STATUS"
+      },
+      "onSuccess": "FINAL_HANDOVER_PROMPT"
+    },
+    {
+      "id": "FINAL_HANDOVER_PROMPT",
+      "name": "顯示交接提示並結束第一階段",
+      "type": "final",
+      "isErrorState": false,
+      "message": "Okay, I'll be waiting for you on the new page! See you there~"
+    },
+    {
+      "id": "STEP_4_RESTORE_AND_CHECK_STAR_STATUS",
+      "name": "恢復任務並檢查 Star 狀態",
+      "type": "domPoll",
+      "statusMessage": "Meow! I'm back! Let's check if you've already starred this...",
+      "params": {
+        "selectorHint": ".starred button[aria-label^='Unstar']",
+        "condition": { "type": "element_exists" },
+        "timeoutMs": 5000
+      },
+      "storeResultAs": "unstarButtonInfo",
+      "onSuccess": "STEP_5_EVALUATE_ALREADY_STARRED",
+      "onFailure": "STEP_6_SEARCH_STAR_BUTTON"
+    },
+    {
+      "id": "STEP_5_EVALUATE_ALREADY_STARRED",
+      "name": "評估是否已 Star",
+      "type": "conditionalBranch",
+      "conditionKey": "unstarButtonInfo.found",
+      "conditionValue": "true",
+      "ifTrue": "FINAL_ALREADY_STARRED",
+      "ifFalse": "STEP_6_SEARCH_STAR_BUTTON"
+    },
+    {
+      "id": "STEP_6_SEARCH_STAR_BUTTON",
+      "name": "DOM 輪詢 'Star' 按鈕",
+      "type": "domPoll",
+      "statusMessage": "Okay, preparing to star it for you!",
+      "params": {
+        "selectorHint": ".unstarred button[aria-label^='Star']",
+        "condition": { "type": "element_exists" },
+        "timeoutMs": 5000
+      },
+      "storeResultAs": "starButtonInfo",
+      "onSuccess": "STEP_7_EVALUATE_STAR_BUTTON_FOUND",
+      "onFailure": "FINAL_STAR_BUTTON_NOT_FOUND"
+    },
+    {
+      "id": "STEP_7_EVALUATE_STAR_BUTTON_FOUND",
+      "name": "評估是否找到 Star 按鈕",
+      "type": "conditionalBranch",
+      "conditionKey": "starButtonInfo.found",
+      "conditionValue": "true",
+      "ifTrue": "STEP_8_CLICK_STAR_BUTTON",
+      "ifFalse": "FINAL_STAR_BUTTON_NOT_FOUND"
+    },
+    {
+      "id": "STEP_8_CLICK_STAR_BUTTON",
+      "name": "DOM 點擊 'Star' 按鈕",
+      "type": "domAction",
+      "action": "click_selector",
+      "statusMessage": "Found the star, lighting it up!",
+      "params": {
+        "selector": "{{starButtonInfo.elementInfo.selectorGenerated}}"
+      },
+      "onSuccess": "STEP_9_DELAY_FOR_EFFECT",
+      "onFailure": "FINAL_CLICK_STAR_BUTTON_FAILED"
+    },
+    {
+      "id": "STEP_9_DELAY_FOR_EFFECT",
+      "name": "等待點擊效果",
+      "type": "delay",
+      "params": { "milliseconds": 2000 },
+      "onSuccess": "FINAL_SUCCESS"
+    },
+    {
+      "id": "FINAL_SUCCESS",
+      "name": "成功",
+      "type": "final",
+      "isErrorState": false,
+      "message": "Yay! Successfully starred! Thank you for your support, meow~"
+    },
+    {
+      "id": "FINAL_ALREADY_STARRED",
+      "name": "已 Star",
+      "type": "final",
+      "isErrorState": false,
+      "message": "Wow! You've already starred this project! Thank you so much, meow~"
+    },
+    {
+      "id": "FINAL_USER_CANCELLED_AT_START",
+      "name": "使用者在開始時取消",
+      "type": "final",
+      "isErrorState": true,
+      "message": "Okay meow, we'll wait on this star mission for now."
+    },
+    {
+      "id": "FINAL_NAVIGATION_TO_REPO_FAILED",
+      "name": "導航失敗",
+      "type": "final",
+      "isErrorState": true,
+      "message": "Meow... I got lost and couldn't take you to the GitHub page..."
+    },
+    {
+      "id": "FINAL_STAR_BUTTON_NOT_FOUND",
+      "name": "未找到 Star 按鈕",
+      "type": "final",
+      "isErrorState": true,
+      "message": "That's odd... I can't seem to find the star button on this page."
+    },
+    {
+      "id": "FINAL_CLICK_STAR_BUTTON_FAILED",
+      "name": "點擊 Star 按鈕失敗",
+      "type": "final",
+      "isErrorState": true,
+      "message": "Meow... I tried to click the star, but it failed... Could you try clicking it manually?"
+    },
+    {
+      "id": "FINAL_GENERIC_ERROR",
+      "name": "通用錯誤",
+      "type": "final",
+      "isErrorState": true,
+      "message": "Meow... Something went a little wrong during the mission."
+    }
+  ]
+}

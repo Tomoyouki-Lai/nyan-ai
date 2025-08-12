@@ -1,0 +1,207 @@
+{
+  "addedTimestamp": 1754450000000,
+  "currentUsage": 0,
+  "usageLimit": 100,
+  "generationCost": 0,
+  "rewardPerSuccessfulUse": 100,
+  "icon": "🛒",
+  "title": "蝦皮商品搜尋 (教學)",
+  "type": "missionPrompt",
+  "description": "這是一張教學卡片，將會引導您如何讓喵喵跨頁面幫您在蝦皮上搜尋商品！",
+  "cardMetadata": {
+    "author": "Nyan AI Team & AI Assistant",
+    "version": "1.0.0-tutorial"
+  },
+  "errorHandling": {
+    "default": "FINAL_UNSPECIFIED_ERROR"
+  },
+  "initialParams": [
+    {
+      "key": "targetUrl",
+      "value": "https://shopee.tw/"
+    },
+    {
+      "key": "defaultProductSuggestion",
+      "value": "iPhone 16"
+    },
+    {
+      "key": "searchInputSelectorHint",
+      "value": "input.shopee-searchbar-input__input"
+    },
+    {
+      "key": "searchResultPageIdentifier",
+      "value": "div.shopee-search-item-result__items"
+    },
+    {
+      "key": "searchButtonSelectorHint",
+      "value": "button.shopee-searchbar__search-button"
+    }
+  ],
+  "steps": [
+    {
+      "id": "STEP_0_INFORM_USER_PLAN",
+      "name": "告知使用者計畫",
+      "type": "userInput",
+      "prompt": "喵~ 我準備要帶您去蝦皮購物囉！我會先幫您打開蝦皮網站，之後請您到新的分頁，點擊瀏覽器右上角的貓爪圖示，把開關打開來召喚我，我們就能繼續搜尋商品了！對了，你要先登入蝦皮網站我才能幫你喔！",
+      "choices": [
+        { "text": "我明白了，出發吧！", "actionValue": "go" },
+        { "text": "先不要", "actionValue": "cancel" }
+      ],
+      "storeResultAs": "planConfirmation",
+      "onSuccess": "STEP_1_EVALUATE_PLAN_CONFIRMATION"
+    },
+    {
+      "id": "STEP_1_EVALUATE_PLAN_CONFIRMATION",
+      "name": "評估計畫確認",
+      "type": "conditionalBranch",
+      "conditionKey": "planConfirmation",
+      "conditionValue": "go",
+      "ifTrue": "STEP_2_OPEN_SHOPEE_IN_NEW_TAB",
+      "ifFalse": "FINAL_USER_CANCELLED_AT_START"
+    },
+    {
+      "id": "STEP_2_OPEN_SHOPEE_IN_NEW_TAB",
+      "name": "打開蝦皮在新分頁",
+      "type": "domAction",
+      "action": "open_new_tab",
+      "statusMessage": "好的喵！正在為您打開蝦皮購物...",
+      "params": { "url": "{{targetUrl}}" },
+      "onSuccess": "STEP_3_SET_PENDING_MISSION",
+      "onFailure": "FINAL_NAVIGATION_FAILED"
+    },
+    {
+      "id": "STEP_3_SET_PENDING_MISSION",
+      "name": "設定待辦任務以供交接",
+      "type": "updateUserData",
+      "action": "setPendingMission",
+      "params": { 
+        "nextStepId": "STEP_4_RESTORE_AND_ASK_QUERY"
+      },
+      "onSuccess": "FINAL_HANDOVER_PROMPT"
+    },
+    {
+      "id": "FINAL_HANDOVER_PROMPT",
+      "name": "顯示交接提示並結束第一階段",
+      "type": "final",
+      "isErrorState": false,
+      "message": "好囉，蝦皮頁面已經打開！我在新頁面等您召喚喔～"
+    },
+    {
+      "id": "STEP_4_RESTORE_AND_ASK_QUERY",
+      "name": "恢復任務並詢問搜尋關鍵字",
+      "type": "userInput",
+      "statusMessage": "喵！我回來了！",
+      "prompt": "我們成功抵達蝦皮了！請問您想找什麼商品呢？（例如：{{defaultProductSuggestion}}）",
+      "inputType": "text",
+      "storeResultAs": "searchQuery",
+      "onSuccess": "STEP_5_WAIT_FOR_SEARCHBAR",
+      "onFailure": "FINAL_USER_CANCELLED_AFTER_RESTORE"
+    },
+    {
+      "id": "STEP_5_WAIT_FOR_SEARCHBAR",
+      "name": "等待搜尋框載入",
+      "type": "domPoll",
+      "statusMessage": "收到！正在尋找搜尋框...",
+      "params": {
+        "condition": { "type": "element_exists" },
+        "selectorHint": "{{searchInputSelectorHint}}",
+        "timeoutMs": 15000
+      },
+      "storeResultAs": "searchBarInfo",
+      "onSuccess": "STEP_6_TYPE_QUERY",
+      "onFailure": "FINAL_SEARCH_BAR_NOT_FOUND"
+    },
+    {
+      "id": "STEP_6_TYPE_QUERY",
+      "name": "輸入搜尋關鍵字",
+      "type": "domAction",
+      "action": "type_text",
+      "statusMessage": "正在輸入「{{searchQuery}}」...",
+      "params": {
+        "selector": "{{searchBarInfo.elementInfo.selectorGenerated}}",
+        "textToType": "{{searchQuery}}",
+        "overwrite": true
+      },
+      "onSuccess": "STEP_7_CLICK_SEARCH",
+      "onFailure": "FINAL_INPUT_FAILED"
+    },
+    {
+      "id": "STEP_7_CLICK_SEARCH",
+      "name": "點擊搜尋按鈕",
+      "type": "domAction",
+      "action": "click_selector",
+      "params": {
+        "selector": "{{searchButtonSelectorHint}}"
+      },
+      "onSuccess": "STEP_8_WAIT_FOR_RESULTS_PAGE",
+      "onFailure": "FINAL_SEARCH_BUTTON_NOT_FOUND"
+    },
+    {
+      "id": "STEP_8_WAIT_FOR_RESULTS_PAGE",
+      "name": "等待搜尋結果頁面載入",
+      "type": "domPoll",
+      "statusMessage": "正在等待搜尋結果...",
+      "params": {
+        "condition": { "type": "element_exists" },
+        "selectorHint": "{{searchResultPageIdentifier}}",
+        "timeoutMs": 20000
+      },
+      "onSuccess": "FINAL_MISSION_SUCCESS",
+      "onFailure": "FINAL_SEARCH_RESULTS_NOT_FOUND"
+    },
+    {
+      "id": "FINAL_MISSION_SUCCESS",
+      "type": "final",
+      "isErrorState": false,
+      "message": "搜尋完成！「{{searchQuery}}」的結果已經為您呈現囉！完成任務獎勵 {{rewardPerSuccessfulUse}} 瓶喵力藥水！"
+    },
+    {
+      "id": "FINAL_USER_CANCELLED_AT_START",
+      "type": "final",
+      "isErrorState": false,
+      "message": "好的喵，那下次有需要再找我囉。"
+    },
+    {
+      "id": "FINAL_USER_CANCELLED_AFTER_RESTORE",
+      "type": "final",
+      "isErrorState": true,
+      "message": "好的，任務已取消。如果您需要其他幫忙，隨時可以告訴我！"
+    },
+    {
+      "id": "FINAL_NAVIGATION_FAILED",
+      "type": "final",
+      "isErrorState": true,
+      "message": "喵嗚...我好像迷路了，找不到蝦皮網站耶。"
+    },
+    {
+      "id": "FINAL_SEARCH_BAR_NOT_FOUND",
+      "type": "final",
+      "isErrorState": true,
+      "message": "奇怪了...我在蝦皮頁面上找不到搜尋框耶，他們是不是改版了？"
+    },
+    {
+      "id": "FINAL_INPUT_FAILED",
+      "type": "final",
+      "isErrorState": true,
+      "message": "喵嗚...我嘗試輸入文字時失敗了。"
+    },
+    {
+      "id": "FINAL_SEARCH_BUTTON_NOT_FOUND",
+      "type": "final",
+      "isErrorState": true,
+      "message": "我找不到搜尋按鈕可以按耶..."
+    },
+    {
+      "id": "FINAL_SEARCH_RESULTS_NOT_FOUND",
+      "type": "final",
+      "isErrorState": true,
+      "message": "喵嗚...送出搜尋後，等了很久都沒有看到結果頁面耶。"
+    },
+    {
+      "id": "FINAL_UNSPECIFIED_ERROR",
+      "type": "final",
+      "isErrorState": true,
+      "message": "喵嗚...任務中發生了一個未知的錯誤。"
+    }
+  ]
+}

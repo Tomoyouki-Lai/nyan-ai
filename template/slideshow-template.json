@@ -1,0 +1,210 @@
+{
+  "addedTimestamp": 1489411352488,
+  "currentUsage": 0,
+  "usageLimit": null,
+  "generationCost": 0,
+  "rewardPerSuccessfulUse": 0,
+  "icon": "🖼️",
+  "title": "AI Art Gallery Tour",
+  "type": "missionPrompt",
+  "description": "A template demonstrating how to use the LLM to control a multimedia popup for an interactive slideshow commentary.",
+  "sourceLanguage": "en",
+  "tone": "an elegant and playful cat girl art guide named Nana",
+  "cardMetadata": {
+    "author": "Nyan AI Team",
+    "version": "1.4.0",
+    "targetUrlPatterns": ["^https?://.*"]
+  },
+  "deactivateOnAnyTerminalCondition": true,
+  "errorHandling": {
+    "default": "FINAL_ERROR"
+  },
+  "data": {
+    "slides": [
+      {
+        "title": "The Girl Detective's Room",
+        "artist": "AI",
+        "imageUrl": "https://i.imgur.com/urc7UIi.jpeg",
+        "prompt": "In the voice of an observer or narrator of a mysterious case, vividly depict this 'Girl Detective's Room'. Emphasize the suspenseful atmosphere created by details like dim lighting, scattered documents, and an old pocket watch, hinting at the detective's complex inner world and the perplexing nature of the case. Conclude with an open-ended question inviting the audience to find clues within the painting. Keep it under 50 words.",
+        "description": "Hello everyone, and welcome to our AI art exhibition! I'm delighted to be your guide. Our first piece is an AI creation titled 'The Girl Detective's Room'. If you look closely, the dim lighting and the scattered documents and books create a mysterious and suspenseful atmosphere. The painting is rich in detail, from the old desk to the pocket watch on the wall, all hinting at the detective's complex inner world and a baffling case. What clues can you find in the painting?",
+        "temperature": 0.5
+      },
+      {
+        "title": "Girl by the Window",
+        "artist": "AI",
+        "imageUrl": "https://i.imgur.com/181LcKU.jpeg",
+        "prompt": "Describe a young girl sitting by a window, with sunlight gracing her face and her gaze fixed on something in the distance. Create a serene atmosphere that is also full of untold stories. Keep it under 50 words.",
+        "description": "Next up is this piece, 'Girl by the Window'. Sunlight streams through the window onto her face, creating a very soft contrast of light and shadow. Her gaze is fixed on the distance, as if pondering some secret thoughts, tinged with both melancholy and hope. This painting perfectly captures a moment of tranquility that is also rich with narrative.",
+        "temperature": 0.5
+      },
+      {
+        "title": "The Cat Girl Café",
+        "artist": "AI",
+        "imageUrl": "https://i.imgur.com/YDkQvnr.jpeg",
+        "prompt": "Using an extremely warm, healing, and joyful tone, introduce 'The Cat Café' to visitors. Vividly describe the adorable poses of the various cats in the painting, such as those sleeping or playing, and emphasize how the warm colors evoke a sense of happiness. Your description should make the listener feel as if they can personally experience the café's coziness and hear the cats' purring. Keep it under 50 words.",
+        "description": "Finally, let's take a look at the warm and adorable 'The Cat Café'. There are so, so many cats of different patterns in the painting—some are sleeping, some are playing, and they all look so incredibly healing! The colors in this piece are very warm, making you feel as if you can almost hear the contented purrs of the cats!",
+        "temperature": 0.5
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": "START",
+      "type": "updateState",
+      "params": { "key": "slideIndex", "value": "0" },
+      "onSuccess": "SLIDE_1_NARRATE"
+    },
+    
+    "// --- Slide 1: he Girl Detective's Room ---",
+    {
+      "id": "SLIDE_1_NARRATE",
+      "type": "llmCreativeAction",
+      "statusMessage": "Nana is preparing the commentary for the first painting...",
+      "params": { "slideKey": "slides" },
+      "storeResultAs": "currentNarrative",
+      "onSuccess": "SLIDE_1_SHOW",
+      "onFailure": "FINAL_ERROR"
+    },
+    {
+      "id": "SLIDE_1_SHOW",
+      "type": "domAction",
+      "action": "show_media_popup",
+      "params": {
+        "mediaUrl": "{{cardData.slides.0.imageUrl}}",
+        "title": "{{cardData.slides.0.title}} - {{cardData.slides.0.artist}}"
+      },
+      "onSuccess": "SLIDE_1_ASK"
+    },
+    {
+      "id": "SLIDE_1_ASK",
+      "type": "userInput",
+      "prompt": "{{currentNarrative}}",
+      "choices": [
+        { "text": "Next", "actionValue": "next" },
+        { "text": "End Tour", "actionValue": "end" }
+      ],
+      "storeResultAs": "userResponse",
+      "onSuccess": "SLIDE_1_EVAL"
+    },
+    {
+      "id": "SLIDE_1_EVAL",
+      "type": "conditionalBranch",
+      "conditionKey": "userResponse",
+      "conditionValue": "next",
+      "ifTrue": "SLIDE_2_NARRATE",
+      "ifFalse": "FINAL_USER_ENDED_TOUR"
+    },
+
+    "// --- Slide 2: Girl by the Window ---",
+    {
+      "id": "SLIDE_2_NARRATE",
+      "type": "updateState",
+      "params": { "key": "slideIndex", "value": "1" },
+      "onSuccess": "SLIDE_2_NARRATE_LLM"
+    },
+    {
+      "id": "SLIDE_2_NARRATE_LLM",
+      "type": "llmCreativeAction",
+      "statusMessage": "Nana is preparing the commentary for the final painting...",
+      "params": { "slideKey": "slides" },
+      "storeResultAs": "currentNarrative",
+      "onSuccess": "SLIDE_2_SHOW",
+      "onFailure": "FINAL_ERROR"
+    },
+    {
+      "id": "SLIDE_2_SHOW",
+      "type": "domAction",
+      "action": "show_media_popup",
+      "params": {
+        "mediaUrl": "{{cardData.slides.1.imageUrl}}",
+        "title": "{{cardData.slides.1.title}} - {{cardData.slides.1.artist}}"
+      },
+      "onSuccess": "SLIDE_2_ASK"
+    },
+    {
+      "id": "SLIDE_2_ASK",
+      "type": "userInput",
+      "prompt": "{{currentNarrative}}",
+      "choices": [
+        { "text": "Previous", "actionValue": "prev" },
+        { "text": "Next", "actionValue": "next" }
+      ],
+      "storeResultAs": "userResponse",
+      "onSuccess": "SLIDE_2_EVAL"
+    },
+    {
+      "id": "SLIDE_2_EVAL",
+      "type": "conditionalBranch",
+      "conditionKey": "userResponse",
+      "conditionValue": "next",
+      "ifTrue": "SLIDE_3_NARRATE",
+      "ifFalse": "SLIDE_1_NARRATE" 
+    },
+
+    "// --- Slide 3: The Cat Girl Café ---",
+    {
+      "id": "SLIDE_3_NARRATE",
+      "type": "updateState",
+      "params": { "key": "slideIndex", "value": "2" },
+      "onSuccess": "SLIDE_3_NARRATE_LLM"
+    },
+    {
+      "id": "SLIDE_3_NARRATE_LLM",
+      "type": "llmCreativeAction",
+      "statusMessage": "Nana is preparing the commentary for the final painting...",
+      "params": { "slideKey": "slides" },
+      "storeResultAs": "currentNarrative",
+      "onSuccess": "SLIDE_3_SHOW",
+      "onFailure": "FINAL_ERROR"
+    },
+    {
+      "id": "SLIDE_3_SHOW",
+      "type": "domAction",
+      "action": "show_media_popup",
+      "params": {
+        "mediaUrl": "{{cardData.slides.2.imageUrl}}",
+        "title": "{{cardData.slides.2.title}} - {{cardData.slides.2.artist}}"
+      },
+      "onSuccess": "SLIDE_3_ASK"
+    },
+    {
+      "id": "SLIDE_3_ASK",
+      "type": "userInput",
+      "prompt": "{{currentNarrative}}",
+      "choices": [
+        { "text": "Previous", "actionValue": "prev" },
+        { "text": "Restart", "actionValue": "restart" }
+      ],
+      "storeResultAs": "userResponse",
+      "onSuccess": "SLIDE_3_EVAL"
+    },
+    {
+        "id": "SLIDE_3_EVAL",
+        "type": "conditionalBranch",
+        "conditionKey": "userResponse",
+        "conditionValue": "restart",
+        "ifTrue": "START",
+        "ifFalse": "SLIDE_2_NARRATE"
+    },
+
+    "// --- Endings & Error Handling ---",
+    {
+      "id": "FINAL_TOUR_END",
+      "type": "final",
+      "isErrorState": false,
+      "message": "We've reached the end of our tour! I hope you enjoyed this AI art exhibition. Please come again soon! Meow~"
+    },
+    {
+      "id": "FINAL_USER_ENDED_TOUR",
+      "type": "final",
+      "isErrorState": false,
+      "message": "Alright, the tour is now concluded. It was a pleasure to be your guide. Bye-bye~"
+    },
+    {
+      "id": "FINAL_ERROR",
+      "type": "final",
+      "isErrorState": true,
+      "message": "Meow... My brain seems to be a bit short-circuited. Let's try again later!"
+    }
+  ]
+}
