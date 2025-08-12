@@ -10,6 +10,12 @@ Les utilisateurs n'ont pas besoin de rédiger des prompts complexes ; il leur su
 
 ---
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1fd54b9b-0c32-464a-9376-fe5733ba4e47" width="600">
+</p>
+
+---
+
 ## 🆚 Nyan AI vs Agents Web Standards
 
 | Caractéristique | 🐌 Agents Web Standards | 🚀 Nyan AI |
