@@ -79,7 +79,6 @@ A Nyan Card is a micro AI assistant for customized tasks — visualized and shar
 
 > Try, share, and remix our demo Nyan Cards — available in the `template` folder of this repo.
 
-* **Personal Companion** — Emotional interaction, reminders → `cat_girl_template.json`
 * **Guidance & Rewards** — Directs users through multi-step tasks with rewards → `guidance_rewards_template.json`
 * **Service Introduction** — Customer support, feature walkthroughs → `customer_support_template.json`
 * **Product Showcase** — Present features, specs, tutorials → `product_showcase_template.json`
