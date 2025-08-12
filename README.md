@@ -11,7 +11,7 @@ Users don’t need to write complicated prompts — simply click on a **Nyan Car
 ---
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/3ec2120e-5a98-45da-87c1-977e76c06386?raw=true" alt="Nyun's custom image"/>
+  <img src="https://github.com/user-attachments/assets/1fd54b9b-0c32-464a-9376-fe5733ba4e47?raw=true" alt="Nyun's custom image"/>
 </p>
 
 ---
