@@ -14,6 +14,10 @@ Users don’t need to write complicated prompts — simply click on a **Nyan Car
   ![Image](https://github.com/user-attachments/assets/3ec2120e-5a98-45da-87c1-977e76c06386)
 </p>
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3ec2120e-5a98-45da-87c1-977e76c06386?raw=true" alt="Nyun's custom image"/>
+</p>
+
 ---
 
 ## 🆚 Nyan AI vs. Traditional Web Agents
